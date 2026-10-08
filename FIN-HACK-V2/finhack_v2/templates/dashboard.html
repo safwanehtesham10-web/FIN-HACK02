@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FIN-HACK — AI Financial Risk Monitoring</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header>
+  <div>
+    <div class="eyebrow">AI-BASED FINANCIAL ANOMALY DETECTION</div>
+    <h1>FIN<span>-HACK</span></h1>
+    <p>From checking everything → to knowing what to check first.</p>
+  </div>
+  <div class="badge">AI ASSISTS · ACCOUNTANT DECIDES</div>
+</header>
+
+<main>
+  <div class="toolbar">
+    <div>
+      <strong>{{ 'Demo dataset active' if demo_active else 'Uploaded dataset active' }}</strong>
+      <span class="muted">{{ '800+ synthetic transactions for demonstration' if demo_active else 'Your uploaded CSV/XLSX is being analyzed' }}</span>
+    </div>
+    <div class="toolbar-actions">
+      <button id="loadDemo" class="secondary">↻ Load Demo Dataset</button>
+      <form id="uploadForm"><input type="file" name="file" accept=".csv,.xlsx" required><button>Analyze Data</button></form>
+    </div>
+  </div>
+
+  <section class="cards">
+    <div><b>Total Transactions</b><strong>{{summary.total}}</strong><span class="card-note">Analyzed</span></div>
+    <div class="high"><b>High Risk</b><strong>{{summary.high}}</strong><span class="card-note">Review first</span></div>
+    <div class="medium"><b>Medium Risk</b><strong>{{summary.medium}}</strong><span class="card-note">Needs attention</span></div>
+    <div class="low"><b>Low Risk</b><strong>{{summary.low}}</strong><span class="card-note">Lower priority</span></div>
+  </section>
+
+  <section class="grid-two">
+    <div class="panel chart-panel">
+      <div class="panelhead"><div><h2>Risk Distribution</h2><small>Current anomaly-priority mix</small></div></div>
+      <div class="risk-bars">
+        <div class="bar-row"><span>High</span><div><i class="bar high" style="width: {{ (summary.high / summary.total * 100) if summary.total else 0 }}%"></i></div><b>{{summary.high}}</b></div>
+        <div class="bar-row"><span>Medium</span><div><i class="bar medium" style="width: {{ (summary.medium / summary.total * 100) if summary.total else 0 }}%"></i></div><b>{{summary.medium}}</b></div>
+        <div class="bar-row"><span>Low</span><div><i class="bar low" style="width: {{ (summary.low / summary.total * 100) if summary.total else 0 }}%"></i></div><b>{{summary.low}}</b></div>
+      </div>
+    </div>
+    <div class="panel chart-panel">
+      <div class="panelhead"><div><h2>Top Risk Signals</h2><small>Most common explainable reasons</small></div></div>
+      <div class="reason-list">
+        {% for reason, count in top_reasons %}
+        <div class="reason"><span>{{reason}}</span><b>{{count}}</b></div>
+        {% else %}<p class="muted">No risk signals yet.</p>{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="panel trend-panel">
+    <div class="panelhead"><div><h2>Transaction Activity</h2><small>Recent transaction volume and high-risk count</small></div></div>
+    <div class="trend" id="trendChart" data-max="{{ trend_data|map(attribute='transactions')|max if trend_data else 1 }}">
+      {% for point in trend_data %}
+      <div class="trend-col" title="{{point.date}} — {{point.transactions}} transactions, {{point.high}} high risk">
+        <div class="trend-bars"><i style="height: {{ [point.transactions / ((trend_data|map(attribute='transactions')|max) if trend_data else 1) * 100, 100]|min }}%"></i><em style="height: {{ [point.high / ((trend_data|map(attribute='transactions')|max) if trend_data else 1) * 100, 100]|min }}%"></em></div>
+        <span>{{point.date}}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panelhead">
+      <div><h2>Priority Transactions</h2><small>Ranked by ML anomaly score + explainable risk signals</small></div>
+      <div class="filters"><input id="search" placeholder="Search transaction/account..."><select id="riskFilter"><option value="ALL">All risk</option><option value="HIGH">High</option><option value="MEDIUM">Medium</option><option value="LOW">Low</option></select></div>
+    </div>
+    <div class="tablewrap">
+      <table id="txnTable"><thead><tr><th>Transaction</th><th>Account</th><th>Amount</th><th>Risk</th><th>Level</th><th>Why flagged</th><th>Review</th></tr></thead>
+      <tbody>
+      {% for r in rows %}
+      <tr data-risk="{{r.risk_level}}" data-search="{{r.transaction_id}} {{r.account_id}} {{r.merchant_category}}">
+        <td><button class="linkbtn details" data-id="{{r.transaction_id}}"><b>{{r.transaction_id}}</b></button><small>{{r.merchant_category}}</small></td>
+        <td>{{r.account_id}}<small>{{r.location}}</small></td>
+        <td>₹{{'{:,.0f}'.format(r.amount)}}</td>
+        <td><div class="score {{r.risk_level|lower}}">{{r.risk_score}}</div></td>
+        <td><span class="pill {{r.risk_level|lower}}">{{r.risk_level}}</span></td>
+        <td><div class="reasons">{{r.reasons|join(' · ')}}</div><small>{{r.context_note}}</small></td>
+        <td><div class="review-buttons"><button class="review" data-id="{{r.transaction_id}}" data-status="Reviewed">Review</button><button class="false" data-id="{{r.transaction_id}}" data-status="False Positive">False</button><button class="escalate" data-id="{{r.transaction_id}}" data-status="Escalated">Escalate</button></div><small class="status">{{r.review.status}}</small></td>
+      </tr>
+      {% endfor %}
+      </tbody></table>
+    </div>
+  </section>
+
+  <section class="how panel">
+    <div><h2>How FIN-HACK works</h2><p><b>1 Data</b> → <b>2 Baseline</b> → <b>3 Detect</b> → <b>4 Score</b> → <b>5 Prioritize</b> → <b>6 Human Review</b></p><small>FIN-HACK is an anomaly-prioritization prototype, not a production fraud detector.</small></div>
+    <div class="demo-controls"><button id="streamToggle" class="stream">▶ Start Simulated Demo Stream</button><span id="streamStatus">Stopped</span><form method="post" action="/reset"><button class="reset">Reset Demo</button></form></div>
+  </section>
+</main>
+
+<div id="msg" aria-live="polite"></div>
+<div id="modal" class="modal hidden"><div class="modal-card"><button id="closeModal" class="close">×</button><div id="modalContent"></div></div></div>
+<script src="/static/app.js"></script>
+</body></html>

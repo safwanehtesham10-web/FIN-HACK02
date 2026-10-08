@@ -1,0 +1,11 @@
+transaction_id,account_id,date,time,amount,transaction_type,merchant_category,location,latitude,longitude,account_type,daily_frequency,hour,location_change,previous_average_amount,is_recurring,description
+TEST-001,ACC-001,2026-10-01,10:30,4500,Purchase,Office Supplies,Hyderabad,17.385,78.4867,Business,3,10,0,5000,False,Regular office purchase
+TEST-002,ACC-001,2026-10-01,14:15,6200,Purchase,Office Supplies,Hyderabad,17.385,78.4867,Business,4,14,0,5200,False,Routine purchase
+TEST-003,ACC-002,2026-10-02,11:00,7800,Transfer,Vendor Payment,Secunderabad,17.4399,78.4983,Current,2,11,0,7000,False,Vendor settlement
+TEST-004,ACC-002,2026-10-02,23:45,95000,Transfer,Vendor Payment,Mumbai,19.076,72.8777,Current,15,23,1,8000,False,Unusual high-value transaction
+TEST-005,ACC-003,2026-10-03,09:20,3200,Purchase,Travel,Hyderabad,17.385,78.4867,Business,2,9,0,3500,True,Recurring travel expense
+TEST-006,ACC-003,2026-10-03,13:10,4100,Purchase,Utilities,Hyderabad,17.385,78.4867,Business,3,13,0,3900,False,Utility payment
+TEST-007,ACC-004,2026-10-04,02:30,125000,Transfer,Equipment,Delhi,28.6139,77.209,Current,18,2,0,12000,False,Large equipment transaction
+TEST-008,ACC-004,2026-10-04,16:40,5600,Purchase,Marketing,Hyderabad,17.385,78.4867,Current,2,16,1,6000,False,Marketing expense
+TEST-009,ACC-005,2026-10-05,12:05,2750,Purchase,Food,Hyderabad,17.385,78.4867,Savings,2,12,0,3000,False,Normal expense
+TEST-010,ACC-005,2026-10-05,18:25,8900,Purchase,Inventory,Bengaluru,12.9716,77.5946,Savings,5,18,1,7500,False,Inventory purchase

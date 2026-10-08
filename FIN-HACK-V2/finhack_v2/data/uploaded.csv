@@ -1,0 +1,803 @@
+transaction_id,account_id,date,time,amount,transaction_type,merchant_category,location,latitude,longitude,account_type,daily_frequency,hour,location_change,previous_average_amount,is_recurring,description
+TXN-1001,ACC-004,2026-09-28,16:26,148659.63,Credit,Marketing,Chennai,18.88762,77.94951,Current,5,16,0,10230.0,0,Marketing transaction
+TXN-1002,ACC-017,2026-09-30,02:42,84251.1,Credit,Professional Services,Pune,19.01502,79.5946,Savings,3,2,0,15515.0,0,Professional Services transaction
+TXN-1003,ACC-032,2026-09-27,14:28,49963.92,Transfer,Travel,Hyderabad,16.57677,76.83965,Business,5,14,1,11475.0,0,Travel transaction
+TXN-1004,ACC-014,2026-09-03,14:48,44296.16,Debit,Professional Services,Secunderabad,18.48208,78.08802,Current,20,14,0,12470.0,0,Professional Services transaction
+TXN-1005,ACC-029,2026-09-05,23:45,183070.78,Credit,Rent,Hyderabad,17.80538,77.39077,Current,15,23,1,28500.0,0,Rent transaction
+TXN-1006,ACC-032,2026-09-06,15:01,113131.57,Transfer,Marketing,Secunderabad,18.11956,77.37641,Business,4,15,0,14850.0,0,Marketing transaction
+TXN-1007,ACC-021,2026-09-29,03:46,40096.34,Transfer,Maintenance,Bengaluru,17.53944,74.76439,Savings,2,3,0,10260.0,0,Maintenance transaction
+TXN-1008,ACC-021,2026-10-06,15:07,68902.32,Credit,Inventory,Secunderabad,18.83488,78.31807,Savings,4,15,1,24300.0,0,Inventory transaction
+TXN-1009,ACC-019,2026-09-05,15:42,87705.55,Debit,Rent,Hyderabad,17.08727,77.52285,Current,23,15,0,30250.0,0,Rent transaction
+TXN-1010,ACC-008,2026-09-14,22:29,39260.33,Debit,Fuel,Hyderabad,16.61912,74.38246,Business,10,22,1,5082.0,0,Fuel transaction
+TXN-1011,ACC-008,2026-09-20,12:10,222577.6,Credit,Rent,Secunderabad,16.43992,76.91194,Savings,3,12,0,30250.0,0,Rent transaction
+TXN-1012,ACC-027,2026-09-15,23:17,114465.05,Debit,Equipment Purchase,Bengaluru,18.59625,79.61466,Current,3,23,0,28000.0,0,Equipment Purchase transaction
+TXN-1013,ACC-006,2026-09-06,12:13,43492.09,Debit,Professional Services,Pune,17.80907,76.14809,Business,5,12,1,15515.0,0,Professional Services transaction
+TXN-1014,ACC-013,2026-10-01,16:10,72788.73,Debit,Equipment Purchase,Hyderabad,16.33024,76.57164,Savings,21,16,0,22120.0,0,Equipment Purchase transaction
+TXN-1015,ACC-040,2026-08-30,22:15,51735.88,Debit,Fuel,Secunderabad,16.89881,74.5102,Savings,17,22,1,4788.0,0,Fuel transaction
+TXN-1016,ACC-003,2026-10-01,17:09,45432.75,Credit,Fuel,Bengaluru,16.6173,73.79198,Current,4,17,0,3612.0,0,Fuel transaction
+TXN-1017,ACC-007,2026-09-03,00:05,73582.47,Transfer,Utilities,Hyderabad,16.58007,74.51678,Current,4,0,0,7410.0,0,Utilities transaction
+TXN-1018,ACC-038,2026-08-27,16:06,126486.66,Transfer,Payroll,Mumbai,17.41543,80.07713,Business,5,16,1,32000.0,1,Payroll transaction
+TXN-1019,ACC-007,2026-09-20,09:17,19988.54,Transfer,Travel,Hyderabad,18.51077,75.23543,Current,23,9,0,9690.0,0,Travel transaction
+TXN-1020,ACC-022,2026-09-28,23:06,54245.45,Transfer,Marketing,Mumbai,17.92386,74.66474,Business,18,23,1,7150.0,0,Marketing transaction
+TXN-1021,ACC-008,2026-09-30,15:18,56221.09,Credit,Utilities,Secunderabad,16.36065,74.85263,Business,2,15,0,7865.0,1,Utilities transaction
+TXN-1022,ACC-034,2026-08-26,02:53,151381.65,Debit,Equipment Purchase,Chennai,16.92322,77.47014,Savings,5,2,0,20160.0,0,Equipment Purchase transaction
+TXN-1023,ACC-017,2026-09-05,16:50,7231.98,Transfer,Office Supplies,Mumbai,19.04075,78.99337,Savings,2,16,1,4815.0,0,Office Supplies transaction
+TXN-1024,ACC-024,2026-09-28,13:14,30120.87,Debit,Marketing,Mumbai,16.60533,76.85399,Business,19,13,0,8690.0,0,Marketing transaction
+TXN-1025,ACC-017,2026-09-20,22:28,51065.35,Transfer,Travel,Mumbai,17.75276,79.3005,Business,19,22,1,9095.0,0,Travel transaction
+TXN-1026,ACC-020,2026-09-23,13:48,120633.26,Credit,Travel,Secunderabad,16.5831,77.75491,Savings,3,13,0,10880.0,0,Travel transaction
+TXN-1027,ACC-026,2026-08-28,03:55,110900.52,Transfer,Marketing,Secunderabad,16.93481,77.5945,Business,5,3,0,10230.0,0,Marketing transaction
+TXN-1028,ACC-004,2026-09-16,16:55,34212.39,Transfer,Marketing,Hyderabad,16.5396,74.27888,Business,6,16,1,10230.0,0,Marketing transaction
+TXN-1029,ACC-020,2026-09-23,15:25,9063.8,Debit,Software,Secunderabad,16.62857,79.87844,Business,5,15,0,11520.0,1,Software transaction
+TXN-1030,ACC-023,2026-09-13,11:22,12072.52,Transfer,Software,Pune,16.55357,77.5825,Current,8,11,0,6480.0,0,Software transaction
+TXN-1031,ACC-002,2026-09-24,09:00,19854.64,Credit,Professional Services,Secunderabad,18.46575,74.42988,Savings,4,9,0,11455.0,0,Professional Services transaction
+TXN-1032,ACC-016,2026-10-08,14:52,3691.13,Credit,Office Supplies,Chennai,18.8014,73.8914,Business,4,14,0,4500.0,0,Office Supplies transaction
+TXN-1033,ACC-010,2026-09-04,15:08,41056.74,Debit,Equipment Purchase,Chennai,16.34981,77.69911,Business,3,15,0,37800.0,0,Equipment Purchase transaction
+TXN-1034,ACC-040,2026-09-29,11:14,3251.31,Credit,Maintenance,Chennai,16.56228,77.0299,Business,6,11,0,8664.0,0,Maintenance transaction
+TXN-1035,ACC-022,2026-09-27,11:37,6630.36,Debit,Professional Services,Chennai,19.04259,77.73619,Savings,3,11,0,9425.0,0,Professional Services transaction
+TXN-1036,ACC-021,2026-08-26,13:36,7415.37,Transfer,Office Supplies,Bengaluru,19.04208,76.7265,Business,3,13,0,6075.0,0,Office Supplies transaction
+TXN-1037,ACC-022,2026-09-29,14:38,4850.38,Transfer,Utilities,Chennai,17.57509,74.48684,Current,7,14,0,4225.0,1,Utilities transaction
+TXN-1038,ACC-039,2026-08-30,11:16,12779.31,Transfer,Maintenance,Bengaluru,17.11942,73.93799,Current,5,11,0,8132.0,0,Maintenance transaction
+TXN-1039,ACC-012,2026-09-12,10:28,32079.51,Credit,Equipment Purchase,Mumbai,17.45111,77.83168,Current,6,10,0,20160.0,0,Equipment Purchase transaction
+TXN-1040,ACC-022,2026-09-09,13:30,9018.84,Debit,Maintenance,Chennai,16.40897,79.25716,Business,7,13,0,4940.0,0,Maintenance transaction
+TXN-1041,ACC-033,2026-08-26,12:16,3539.41,Credit,Office Supplies,Bengaluru,18.68399,76.15693,Savings,3,12,0,2925.0,0,Office Supplies transaction
+TXN-1042,ACC-029,2026-08-31,07:36,5155.39,Transfer,Travel,Pune,16.23111,75.07978,Current,7,7,0,9690.0,0,Travel transaction
+TXN-1043,ACC-031,2026-09-17,15:09,26841.47,Transfer,Equipment Purchase,Hyderabad,16.43214,78.68518,Current,6,15,0,35840.0,0,Equipment Purchase transaction
+TXN-1044,ACC-002,2026-09-12,10:28,19001.89,Credit,Equipment Purchase,Secunderabad,17.04697,76.9353,Business,2,10,0,22120.0,0,Equipment Purchase transaction
+TXN-1045,ACC-040,2026-09-19,08:29,7373.52,Transfer,Software,Chennai,17.18152,79.27356,Current,6,8,0,10260.0,1,Software transaction
+TXN-1046,ACC-014,2026-09-15,13:46,29313.75,Credit,Professional Services,Secunderabad,17.3558,79.75443,Business,6,13,0,12470.0,0,Professional Services transaction
+TXN-1047,ACC-026,2026-09-22,15:10,43434.01,Transfer,Payroll,Secunderabad,17.09185,77.64995,Current,1,15,0,29760.0,0,Payroll transaction
+TXN-1048,ACC-023,2026-08-24,14:16,15789.73,Transfer,Payroll,Pune,17.804,78.01708,Current,10,14,0,23040.0,0,Payroll transaction
+TXN-1049,ACC-017,2026-10-07,18:59,21383.63,Debit,Inventory,Pune,18.4543,76.93202,Business,3,18,0,19260.0,0,Inventory transaction
+TXN-1050,ACC-036,2026-10-08,14:27,1713.91,Credit,Fuel,Mumbai,18.88163,79.12905,Savings,3,14,0,3612.0,0,Fuel transaction
+TXN-1051,ACC-010,2026-08-25,10:22,7615.28,Transfer,Office Supplies,Chennai,18.0035,79.36363,Business,7,10,0,6075.0,0,Office Supplies transaction
+TXN-1052,ACC-018,2026-08-24,14:30,6678.66,Credit,Maintenance,Mumbai,18.6747,75.67303,Current,5,14,0,8664.0,0,Maintenance transaction
+TXN-1053,ACC-029,2026-09-20,12:23,28304.45,Transfer,Equipment Purchase,Pune,18.28115,79.02905,Current,2,12,0,31920.0,0,Equipment Purchase transaction
+TXN-1054,ACC-022,2026-10-08,13:17,6205.5,Credit,Marketing,Chennai,17.2596,74.1433,Business,7,13,0,7150.0,0,Marketing transaction
+TXN-1055,ACC-015,2026-09-02,13:01,9361.24,Credit,Professional Services,Bengaluru,16.88178,75.84726,Savings,6,13,0,13485.0,0,Professional Services transaction
+TXN-1056,ACC-036,2026-10-04,15:31,1903.68,Debit,Utilities,Mumbai,18.73551,75.56943,Business,3,15,0,5590.0,1,Utilities transaction
+TXN-1057,ACC-003,2026-09-18,15:47,5211.51,Debit,Utilities,Bengaluru,18.09347,80.00531,Business,7,15,0,5590.0,1,Utilities transaction
+TXN-1058,ACC-032,2026-09-16,07:25,15304.02,Debit,Maintenance,Secunderabad,16.39004,76.70378,Business,2,7,0,10260.0,0,Maintenance transaction
+TXN-1059,ACC-011,2026-09-16,10:18,14660.66,Credit,Rent,Pune,17.07601,76.30123,Business,2,10,0,16250.0,0,Rent transaction
+TXN-1060,ACC-010,2026-09-12,10:00,32628.14,Debit,Inventory,Chennai,17.61956,75.89842,Current,1,10,0,24300.0,0,Inventory transaction
+TXN-1061,ACC-017,2026-09-12,13:46,10099.13,Transfer,Professional Services,Pune,16.86193,75.88286,Savings,3,13,0,15515.0,0,Professional Services transaction
+TXN-1062,ACC-010,2026-10-05,14:02,23620.24,Debit,Equipment Purchase,Chennai,18.86459,73.76111,Business,2,14,0,37800.0,0,Equipment Purchase transaction
+TXN-1063,ACC-038,2026-09-01,07:01,12661.04,Credit,Rent,Secunderabad,16.67196,78.80139,Current,5,7,0,25000.0,0,Rent transaction
+TXN-1064,ACC-040,2026-10-02,10:15,6534.78,Debit,Utilities,Chennai,17.40068,75.7964,Business,6,10,0,7410.0,1,Utilities transaction
+TXN-1065,ACC-033,2026-08-27,13:01,1290.7,Debit,Fuel,Bengaluru,17.92211,74.53177,Savings,5,13,0,2730.0,0,Fuel transaction
+TXN-1066,ACC-032,2026-08-30,13:41,14354.53,Credit,Software,Secunderabad,17.89545,74.53761,Savings,2,13,0,12150.0,1,Software transaction
+TXN-1067,ACC-023,2026-10-04,10:52,11901.25,Credit,Inventory,Pune,17.05479,78.0799,Current,2,10,0,12960.0,0,Inventory transaction
+TXN-1068,ACC-040,2026-10-01,16:01,14721.21,Transfer,Travel,Chennai,18.30473,77.44179,Savings,5,16,0,9690.0,0,Travel transaction
+TXN-1069,ACC-011,2026-09-27,14:59,5116.23,Credit,Software,Pune,17.38309,74.32087,Current,1,14,0,5850.0,0,Software transaction
+TXN-1070,ACC-031,2026-10-03,14:23,15600.13,Transfer,Marketing,Hyderabad,18.84649,75.10017,Savings,3,14,0,14080.0,0,Marketing transaction
+TXN-1071,ACC-014,2026-09-14,13:44,3656.43,Transfer,Fuel,Secunderabad,18.71016,78.96744,Savings,6,13,0,3612.0,0,Fuel transaction
+TXN-1072,ACC-021,2026-08-28,12:12,13142.94,Credit,Office Supplies,Bengaluru,17.88487,76.40032,Current,6,12,0,6075.0,0,Office Supplies transaction
+TXN-1073,ACC-001,2026-09-20,15:56,8499.01,Debit,Professional Services,Hyderabad,18.18523,75.94055,Business,3,15,0,10440.0,0,Professional Services transaction
+TXN-1074,ACC-001,2026-10-06,13:14,3535.85,Credit,Software,Hyderabad,17.55841,75.4123,Current,3,13,0,6480.0,1,Software transaction
+TXN-1075,ACC-006,2026-08-26,13:28,6526.92,Debit,Office Supplies,Mumbai,18.41793,79.48629,Business,3,13,0,4815.0,0,Office Supplies transaction
+TXN-1076,ACC-031,2026-10-04,10:59,14448.17,Transfer,Inventory,Hyderabad,17.8034,74.34005,Business,2,10,0,23040.0,0,Inventory transaction
+TXN-1077,ACC-033,2026-10-01,12:37,4628.33,Credit,Software,Bengaluru,18.33188,75.65382,Current,2,12,0,5850.0,0,Software transaction
+TXN-1078,ACC-034,2026-09-10,13:24,3157.1,Debit,Fuel,Chennai,16.49115,75.44596,Savings,3,13,0,3024.0,0,Fuel transaction
+TXN-1079,ACC-008,2026-10-01,15:10,15725.28,Credit,Marketing,Secunderabad,16.92038,75.31566,Current,5,15,0,13310.0,0,Marketing transaction
+TXN-1080,ACC-012,2026-08-31,11:56,3406.37,Credit,Office Supplies,Mumbai,16.56443,79.98485,Business,5,11,0,3240.0,0,Office Supplies transaction
+TXN-1081,ACC-004,2026-09-15,15:57,4448.44,Credit,Fuel,Chennai,18.85886,75.82212,Business,3,15,0,3906.0,0,Fuel transaction
+TXN-1082,ACC-037,2026-09-20,12:27,4725.8,Transfer,Office Supplies,Hyderabad,17.19002,74.0307,Savings,6,12,0,4185.0,0,Office Supplies transaction
+TXN-1083,ACC-038,2026-09-08,13:47,11543.29,Transfer,Office Supplies,Secunderabad,19.08077,75.55392,Business,5,13,0,4500.0,0,Office Supplies transaction
+TXN-1084,ACC-036,2026-08-26,12:27,27922.98,Credit,Payroll,Mumbai,17.57107,79.9704,Current,6,12,0,27520.0,0,Payroll transaction
+TXN-1085,ACC-022,2026-09-08,14:10,12836.73,Transfer,Professional Services,Chennai,18.78821,78.64748,Current,1,14,0,9425.0,0,Professional Services transaction
+TXN-1086,ACC-012,2026-10-08,15:31,16459.92,Credit,Equipment Purchase,Mumbai,18.83055,76.46739,Current,6,15,0,20160.0,0,Equipment Purchase transaction
+TXN-1087,ACC-008,2026-09-22,15:20,32533.74,Debit,Payroll,Secunderabad,18.12244,73.83046,Current,2,15,0,38720.0,0,Payroll transaction
+TXN-1088,ACC-036,2026-09-08,09:11,17422.11,Transfer,Rent,Mumbai,17.02221,78.15326,Business,3,9,0,21500.0,1,Rent transaction
+TXN-1089,ACC-037,2026-10-04,07:12,10842.03,Credit,Software,Hyderabad,18.18774,73.8533,Current,5,7,0,8370.0,0,Software transaction
+TXN-1090,ACC-022,2026-09-11,11:52,8851.78,Transfer,Software,Chennai,18.84675,79.79757,Business,6,11,0,5850.0,1,Software transaction
+TXN-1091,ACC-013,2026-10-01,12:58,3564.02,Credit,Maintenance,Hyderabad,17.03903,75.40154,Current,4,12,0,6004.0,0,Maintenance transaction
+TXN-1092,ACC-019,2026-09-19,12:24,71311.48,Credit,Payroll,Hyderabad,18.6336,74.61297,Savings,3,12,0,38720.0,1,Payroll transaction
+TXN-1093,ACC-028,2026-09-28,09:06,10689.38,Debit,Marketing,Chennai,17.99704,79.85715,Current,2,9,0,11770.0,0,Marketing transaction
+TXN-1094,ACC-012,2026-10-08,14:04,7432.54,Transfer,Marketing,Mumbai,16.71143,76.49507,Savings,4,14,0,7920.0,0,Marketing transaction
+TXN-1095,ACC-021,2026-09-18,13:30,16023.27,Transfer,Travel,Bengaluru,19.03233,75.80095,Savings,4,13,0,11475.0,0,Travel transaction
+TXN-1096,ACC-012,2026-09-14,14:25,7868.5,Debit,Travel,Mumbai,18.52403,76.9423,Savings,6,14,0,6120.0,0,Travel transaction
+TXN-1097,ACC-009,2026-10-04,16:08,8600.65,Debit,Utilities,Bengaluru,17.46532,78.81252,Business,3,16,0,8320.0,1,Utilities transaction
+TXN-1098,ACC-004,2026-08-25,13:39,62622.74,Credit,Payroll,Chennai,18.33961,75.39918,Current,5,13,0,29760.0,1,Payroll transaction
+TXN-1099,ACC-014,2026-09-27,18:30,7321.66,Credit,Travel,Secunderabad,16.54484,74.26748,Savings,3,18,0,7310.0,0,Travel transaction
+TXN-1100,ACC-014,2026-09-01,13:10,23860.66,Transfer,Inventory,Secunderabad,18.73774,80.13893,Current,4,13,0,15480.0,0,Inventory transaction
+TXN-1101,ACC-039,2026-10-03,12:11,18197.67,Credit,Equipment Purchase,Bengaluru,16.34343,77.67029,Business,6,12,0,29960.0,0,Equipment Purchase transaction
+TXN-1102,ACC-015,2026-09-15,13:15,6727.66,Debit,Marketing,Bengaluru,17.11277,77.42303,Current,4,13,0,10230.0,0,Marketing transaction
+TXN-1103,ACC-026,2026-09-24,09:03,3888.59,Transfer,Fuel,Secunderabad,18.91307,74.09261,Current,5,9,0,3906.0,0,Fuel transaction
+TXN-1104,ACC-014,2026-09-02,10:35,14376.88,Credit,Equipment Purchase,Secunderabad,17.42593,74.86251,Business,2,10,0,24080.0,0,Equipment Purchase transaction
+TXN-1105,ACC-004,2026-08-30,11:51,7707.2,Credit,Marketing,Chennai,17.97041,75.05558,Business,2,11,0,10230.0,0,Marketing transaction
+TXN-1106,ACC-033,2026-10-03,09:55,960.38,Debit,Office Supplies,Bengaluru,18.38739,79.11074,Savings,3,9,0,2925.0,0,Office Supplies transaction
+TXN-1107,ACC-028,2026-09-17,14:59,13192.57,Transfer,Inventory,Chennai,17.64605,76.95824,Savings,5,14,0,19260.0,0,Inventory transaction
+TXN-1108,ACC-012,2026-10-07,11:22,6277.6,Debit,Maintenance,Mumbai,16.49952,79.41655,Business,2,11,0,5472.0,0,Maintenance transaction
+TXN-1109,ACC-002,2026-09-20,16:21,9165.22,Transfer,Professional Services,Secunderabad,17.53927,78.04777,Current,6,16,0,11455.0,0,Professional Services transaction
+TXN-1110,ACC-015,2026-09-18,13:19,41200.61,Transfer,Payroll,Bengaluru,16.82216,77.41364,Current,2,13,0,29760.0,0,Payroll transaction
+TXN-1111,ACC-031,2026-09-27,15:15,13064.06,Credit,Professional Services,Hyderabad,17.33821,79.79774,Savings,3,15,0,18560.0,0,Professional Services transaction
+TXN-1112,ACC-037,2026-09-19,17:00,5494.14,Credit,Maintenance,Hyderabad,18.67122,76.97636,Savings,2,17,0,7068.0,0,Maintenance transaction
+TXN-1113,ACC-009,2026-09-14,09:00,39815.33,Credit,Equipment Purchase,Bengaluru,17.64011,77.24082,Savings,5,9,0,35840.0,0,Equipment Purchase transaction
+TXN-1114,ACC-010,2026-10-07,10:57,4601.52,Credit,Office Supplies,Chennai,17.59711,77.42499,Savings,4,10,0,6075.0,0,Office Supplies transaction
+TXN-1115,ACC-026,2026-10-08,07:36,14047.9,Debit,Software,Secunderabad,17.02475,75.70506,Savings,2,7,0,8370.0,0,Software transaction
+TXN-1116,ACC-030,2026-10-03,09:01,6376.61,Transfer,Office Supplies,Mumbai,16.31628,76.7474,Current,4,9,0,5445.0,0,Office Supplies transaction
+TXN-1117,ACC-039,2026-09-17,15:12,7719.94,Credit,Maintenance,Bengaluru,17.37448,79.0392,Savings,2,15,0,8132.0,0,Maintenance transaction
+TXN-1118,ACC-017,2026-10-07,20:04,11989.58,Debit,Travel,Pune,19.08127,80.02747,Current,4,20,0,9095.0,0,Travel transaction
+TXN-1119,ACC-027,2026-08-25,13:42,12487.86,Debit,Travel,Bengaluru,18.62868,74.47553,Savings,1,13,0,8500.0,0,Travel transaction
+TXN-1120,ACC-012,2026-08-26,12:50,3940.74,Debit,Office Supplies,Mumbai,17.1009,74.9498,Savings,5,12,0,3240.0,0,Office Supplies transaction
+TXN-1121,ACC-021,2026-09-06,16:57,20049.33,Debit,Travel,Bengaluru,17.77614,79.63288,Current,7,16,0,11475.0,0,Travel transaction
+TXN-1122,ACC-009,2026-10-07,12:42,10749.95,Transfer,Equipment Purchase,Bengaluru,18.46162,76.64408,Business,4,12,0,35840.0,0,Equipment Purchase transaction
+TXN-1123,ACC-008,2026-10-05,14:36,4046.41,Credit,Fuel,Secunderabad,18.91491,80.14947,Current,3,14,0,5082.0,0,Fuel transaction
+TXN-1124,ACC-002,2026-09-03,12:02,10514.1,Transfer,Professional Services,Secunderabad,18.52169,77.77741,Business,5,12,0,11455.0,0,Professional Services transaction
+TXN-1125,ACC-027,2026-10-02,11:56,19539.08,Debit,Marketing,Bengaluru,17.76738,74.90654,Savings,4,11,0,11000.0,0,Marketing transaction
+TXN-1126,ACC-025,2026-09-07,15:39,4985.02,Transfer,Travel,Hyderabad,16.74492,74.40826,Savings,3,15,0,7310.0,0,Travel transaction
+TXN-1127,ACC-024,2026-09-15,12:31,11060.47,Transfer,Professional Services,Mumbai,16.86111,77.90822,Current,5,12,0,11455.0,0,Professional Services transaction
+TXN-1128,ACC-025,2026-08-26,12:58,17885.27,Transfer,Marketing,Hyderabad,18.07973,78.8596,Savings,2,12,0,9460.0,0,Marketing transaction
+TXN-1129,ACC-037,2026-09-12,13:38,68406.05,Credit,Equipment Purchase,Hyderabad,17.66671,78.56138,Savings,6,13,0,26040.0,0,Equipment Purchase transaction
+TXN-1130,ACC-020,2026-09-14,13:12,8834.0,Credit,Professional Services,Secunderabad,18.97254,74.71919,Business,5,13,0,18560.0,0,Professional Services transaction
+TXN-1131,ACC-012,2026-09-02,13:17,29189.92,Transfer,Payroll,Mumbai,16.99295,75.735,Business,4,13,0,23040.0,1,Payroll transaction
+TXN-1132,ACC-016,2026-08-29,12:33,5738.0,Debit,Software,Chennai,17.55571,76.2876,Business,7,12,0,9000.0,1,Software transaction
+TXN-1133,ACC-029,2026-09-04,13:45,11079.19,Transfer,Fuel,Pune,16.88439,78.73683,Current,3,13,0,4788.0,0,Fuel transaction
+TXN-1134,ACC-003,2026-10-05,08:29,24107.9,Credit,Payroll,Bengaluru,17.63351,76.38859,Current,7,8,0,27520.0,1,Payroll transaction
+TXN-1135,ACC-019,2026-09-19,18:33,18546.26,Transfer,Rent,Hyderabad,17.95827,79.89612,Business,7,18,0,30250.0,1,Rent transaction
+TXN-1136,ACC-018,2026-09-08,14:33,10920.89,Credit,Maintenance,Mumbai,17.36835,79.2052,Savings,2,14,0,8664.0,0,Maintenance transaction
+TXN-1137,ACC-001,2026-09-24,15:11,8959.95,Transfer,Software,Hyderabad,16.88224,75.52297,Savings,3,15,0,6480.0,0,Software transaction
+TXN-1138,ACC-014,2026-10-07,09:15,16942.18,Transfer,Professional Services,Secunderabad,16.21249,77.4697,Business,5,9,0,12470.0,0,Professional Services transaction
+TXN-1139,ACC-015,2026-10-08,13:02,6437.6,Credit,Fuel,Bengaluru,17.27748,74.94632,Savings,3,13,0,3906.0,0,Fuel transaction
+TXN-1140,ACC-007,2026-09-01,09:24,9233.8,Transfer,Professional Services,Hyderabad,18.38826,74.3454,Savings,7,9,0,16530.0,0,Professional Services transaction
+TXN-1141,ACC-017,2026-09-14,17:12,16892.02,Credit,Inventory,Pune,16.93871,74.59125,Business,5,17,0,19260.0,0,Inventory transaction
+TXN-1142,ACC-001,2026-10-06,08:24,35503.36,Debit,Professional Services,Hyderabad,18.05383,78.86717,Business,2,8,0,10440.0,0,Professional Services transaction
+TXN-1143,ACC-007,2026-09-02,07:55,58687.46,Credit,Payroll,Hyderabad,17.99486,78.71578,Business,2,7,0,36480.0,0,Payroll transaction
+TXN-1144,ACC-025,2026-08-29,08:46,24411.28,Credit,Inventory,Hyderabad,16.89118,77.01897,Business,7,8,0,15480.0,0,Inventory transaction
+TXN-1145,ACC-027,2026-09-16,11:34,13451.81,Credit,Professional Services,Bengaluru,18.98582,78.46412,Savings,6,11,0,14500.0,0,Professional Services transaction
+TXN-1146,ACC-033,2026-10-05,13:59,7370.84,Credit,Inventory,Bengaluru,18.73906,75.57474,Current,3,13,0,11700.0,0,Inventory transaction
+TXN-1147,ACC-021,2026-09-29,13:22,7589.9,Debit,Marketing,Bengaluru,18.60583,73.86138,Current,4,13,0,14850.0,0,Marketing transaction
+TXN-1148,ACC-019,2026-09-03,16:42,7336.69,Transfer,Maintenance,Hyderabad,16.28959,76.31648,Savings,2,16,0,9196.0,0,Maintenance transaction
+TXN-1149,ACC-017,2026-10-06,09:03,2321.66,Transfer,Fuel,Pune,16.27883,80.0262,Business,6,9,0,4494.0,0,Fuel transaction
+TXN-1150,ACC-018,2026-09-25,14:38,7727.18,Debit,Inventory,Mumbai,18.55408,76.00712,Savings,4,14,0,20520.0,0,Inventory transaction
+TXN-1151,ACC-039,2026-09-19,13:08,12587.49,Debit,Inventory,Bengaluru,16.54832,74.17061,Business,4,13,0,19260.0,0,Inventory transaction
+TXN-1152,ACC-003,2026-10-08,10:04,16127.77,Transfer,Inventory,Bengaluru,17.55619,74.82011,Current,8,10,0,15480.0,0,Inventory transaction
+TXN-1153,ACC-017,2026-09-29,17:15,22721.43,Debit,Rent,Pune,16.8282,78.24675,Business,5,17,0,26750.0,0,Rent transaction
+TXN-1154,ACC-027,2026-10-04,16:17,14193.77,Debit,Inventory,Bengaluru,18.15678,78.20508,Savings,5,16,0,18000.0,0,Inventory transaction
+TXN-1155,ACC-025,2026-08-27,10:26,20235.8,Credit,Rent,Hyderabad,18.40522,76.81887,Current,4,10,0,21500.0,0,Rent transaction
+TXN-1156,ACC-022,2026-09-15,09:37,3313.48,Credit,Office Supplies,Chennai,17.59662,79.78312,Current,4,9,0,2925.0,0,Office Supplies transaction
+TXN-1157,ACC-014,2026-09-15,09:28,19869.32,Debit,Professional Services,Secunderabad,16.20165,76.55084,Business,2,9,0,12470.0,0,Professional Services transaction
+TXN-1158,ACC-015,2026-09-28,12:44,11760.95,Credit,Professional Services,Bengaluru,17.14609,77.9343,Current,3,12,0,13485.0,0,Professional Services transaction
+TXN-1159,ACC-013,2026-09-11,14:45,2291.7,Transfer,Utilities,Hyderabad,17.88909,80.25725,Business,6,14,0,5135.0,1,Utilities transaction
+TXN-1160,ACC-001,2026-10-08,07:31,11615.26,Transfer,Inventory,Hyderabad,19.0583,80.20131,Current,5,7,0,12960.0,0,Inventory transaction
+TXN-1161,ACC-037,2026-10-04,10:47,13814.11,Transfer,Professional Services,Hyderabad,17.16729,75.88247,Savings,5,10,0,13485.0,0,Professional Services transaction
+TXN-1162,ACC-022,2026-08-29,09:11,9703.87,Transfer,Equipment Purchase,Chennai,16.7133,78.02876,Business,4,9,0,18200.0,0,Equipment Purchase transaction
+TXN-1163,ACC-036,2026-09-05,11:03,9449.44,Debit,Software,Mumbai,17.95904,76.63494,Business,1,11,0,7740.0,0,Software transaction
+TXN-1164,ACC-027,2026-09-13,14:04,49198.22,Credit,Payroll,Bengaluru,17.79353,74.69026,Savings,1,14,0,32000.0,1,Payroll transaction
+TXN-1165,ACC-036,2026-09-02,10:39,16597.5,Transfer,Rent,Mumbai,17.22142,78.3953,Business,5,10,0,21500.0,1,Rent transaction
+TXN-1166,ACC-015,2026-08-24,10:26,6761.61,Credit,Utilities,Bengaluru,16.91214,73.98084,Current,4,10,0,6045.0,1,Utilities transaction
+TXN-1167,ACC-035,2026-09-03,12:27,13855.67,Debit,Professional Services,Pune,18.96059,73.77954,Savings,5,12,0,11455.0,0,Professional Services transaction
+TXN-1168,ACC-035,2026-09-28,11:58,8536.87,Debit,Software,Pune,17.98274,76.45387,Current,2,11,0,7110.0,0,Software transaction
+TXN-1169,ACC-026,2026-09-19,10:09,7284.73,Transfer,Professional Services,Secunderabad,18.32606,76.13532,Savings,5,10,0,13485.0,0,Professional Services transaction
+TXN-1170,ACC-039,2026-09-01,11:13,28901.28,Credit,Payroll,Bengaluru,18.88734,75.4021,Current,5,11,0,34240.0,1,Payroll transaction
+TXN-1171,ACC-004,2026-09-24,08:59,8722.1,Credit,Marketing,Chennai,18.38593,75.58181,Current,3,8,0,10230.0,0,Marketing transaction
+TXN-1172,ACC-021,2026-09-08,10:50,6649.95,Credit,Office Supplies,Bengaluru,17.61887,74.63482,Savings,4,10,0,6075.0,0,Office Supplies transaction
+TXN-1173,ACC-011,2026-08-31,14:41,6773.53,Credit,Travel,Pune,17.01095,73.91149,Current,3,14,0,5525.0,0,Travel transaction
+TXN-1174,ACC-028,2026-09-21,08:22,9609.97,Credit,Utilities,Chennai,17.34281,79.048,Current,1,8,0,6955.0,1,Utilities transaction
+TXN-1175,ACC-001,2026-09-10,12:31,2173.79,Debit,Fuel,Hyderabad,18.93297,73.84697,Savings,4,12,0,3024.0,0,Fuel transaction
+TXN-1176,ACC-040,2026-09-20,14:45,11424.26,Credit,Travel,Chennai,17.78626,74.66851,Current,4,14,0,9690.0,0,Travel transaction
+TXN-1177,ACC-032,2026-09-08,10:59,23357.42,Debit,Inventory,Secunderabad,18.94171,75.45434,Business,6,10,0,24300.0,0,Inventory transaction
+TXN-1178,ACC-032,2026-09-16,14:05,7756.72,Debit,Office Supplies,Secunderabad,18.68088,76.27327,Business,6,14,0,6075.0,0,Office Supplies transaction
+TXN-1179,ACC-014,2026-09-17,15:58,2935.87,Credit,Fuel,Secunderabad,16.78053,78.18823,Current,1,15,0,3612.0,0,Fuel transaction
+TXN-1180,ACC-019,2026-09-01,15:40,19855.84,Debit,Professional Services,Hyderabad,17.85866,75.11128,Savings,4,15,0,17545.0,0,Professional Services transaction
+TXN-1181,ACC-002,2026-10-04,10:20,30525.62,Transfer,Equipment Purchase,Secunderabad,16.57918,79.02583,Savings,2,10,0,22120.0,0,Equipment Purchase transaction
+TXN-1182,ACC-037,2026-10-06,10:36,6137.11,Transfer,Travel,Hyderabad,16.71595,77.74652,Current,4,10,0,7905.0,0,Travel transaction
+TXN-1183,ACC-014,2026-08-24,12:55,3564.18,Credit,Office Supplies,Secunderabad,16.29515,75.54374,Business,2,12,0,3870.0,0,Office Supplies transaction
+TXN-1184,ACC-011,2026-09-01,07:22,2792.33,Credit,Fuel,Pune,16.78613,78.69389,Business,2,7,0,2730.0,0,Fuel transaction
+TXN-1185,ACC-024,2026-10-08,12:55,24288.27,Transfer,Payroll,Mumbai,18.8948,74.32265,Business,7,12,0,25280.0,0,Payroll transaction
+TXN-1186,ACC-038,2026-10-08,11:46,13627.92,Transfer,Equipment Purchase,Secunderabad,18.51775,77.67591,Savings,1,11,0,28000.0,0,Equipment Purchase transaction
+TXN-1187,ACC-021,2026-10-02,14:05,47210.81,Credit,Payroll,Bengaluru,17.33893,76.50568,Business,1,14,0,43200.0,1,Payroll transaction
+TXN-1188,ACC-002,2026-10-03,15:16,7349.89,Credit,Travel,Secunderabad,16.64023,76.02274,Current,4,15,0,6715.0,0,Travel transaction
+TXN-1189,ACC-025,2026-09-19,13:24,19532.5,Credit,Professional Services,Hyderabad,18.57286,77.55547,Business,6,13,0,12470.0,0,Professional Services transaction
+TXN-1190,ACC-013,2026-09-05,14:55,44270.7,Credit,Inventory,Hyderabad,18.56611,74.14568,Current,2,14,0,14220.0,0,Inventory transaction
+TXN-1191,ACC-021,2026-09-16,11:15,11930.92,Credit,Utilities,Bengaluru,16.65324,74.3874,Current,5,11,0,8775.0,0,Utilities transaction
+TXN-1192,ACC-029,2026-10-08,15:27,49224.46,Credit,Rent,Pune,17.11268,76.04409,Savings,3,15,0,28500.0,0,Rent transaction
+TXN-1193,ACC-028,2026-09-13,14:24,5777.15,Debit,Software,Chennai,17.18315,78.02603,Current,3,14,0,9630.0,1,Software transaction
+TXN-1194,ACC-018,2026-08-28,13:56,13720.52,Transfer,Rent,Mumbai,17.06092,74.10016,Current,2,13,0,28500.0,1,Rent transaction
+TXN-1195,ACC-019,2026-09-09,08:15,18867.33,Transfer,Professional Services,Hyderabad,18.4384,76.20053,Current,4,8,0,17545.0,0,Professional Services transaction
+TXN-1196,ACC-012,2026-09-20,12:57,4135.76,Transfer,Utilities,Mumbai,19.06146,76.72528,Savings,2,12,0,4680.0,1,Utilities transaction
+TXN-1197,ACC-001,2026-08-28,13:33,20278.02,Debit,Equipment Purchase,Hyderabad,16.82718,79.37828,Current,9,13,0,20160.0,0,Equipment Purchase transaction
+TXN-1198,ACC-031,2026-09-22,10:25,22793.81,Credit,Equipment Purchase,Hyderabad,18.41621,75.01865,Savings,3,10,0,35840.0,0,Equipment Purchase transaction
+TXN-1199,ACC-012,2026-09-06,09:58,4362.5,Debit,Travel,Mumbai,16.32521,73.73206,Savings,3,9,0,6120.0,0,Travel transaction
+TXN-1200,ACC-039,2026-09-26,15:56,7848.39,Credit,Maintenance,Bengaluru,17.93469,79.62759,Current,4,15,0,8132.0,0,Maintenance transaction
+TXN-1201,ACC-025,2026-10-08,12:04,22784.92,Transfer,Rent,Hyderabad,18.86581,73.91511,Current,3,12,0,21500.0,0,Rent transaction
+TXN-1202,ACC-039,2026-08-27,13:24,7051.65,Debit,Office Supplies,Bengaluru,17.6442,77.53089,Current,3,13,0,4815.0,0,Office Supplies transaction
+TXN-1203,ACC-007,2026-09-10,14:49,8324.08,Transfer,Utilities,Hyderabad,18.31085,75.6012,Business,5,14,0,7410.0,1,Utilities transaction
+TXN-1204,ACC-001,2026-09-26,11:03,9545.13,Transfer,Office Supplies,Hyderabad,18.67553,75.24904,Business,2,11,0,3240.0,0,Office Supplies transaction
+TXN-1205,ACC-019,2026-09-18,18:25,24590.08,Debit,Rent,Hyderabad,18.12912,78.22242,Savings,5,18,0,30250.0,1,Rent transaction
+TXN-1206,ACC-031,2026-09-05,12:25,81791.89,Transfer,Rent,Hyderabad,16.63483,79.45589,Current,3,12,0,32000.0,1,Rent transaction
+TXN-1207,ACC-009,2026-09-20,11:08,28243.74,Credit,Professional Services,Bengaluru,16.33703,78.73086,Business,2,11,0,18560.0,0,Professional Services transaction
+TXN-1208,ACC-008,2026-10-08,15:02,12221.69,Debit,Utilities,Secunderabad,16.94709,74.95064,Savings,4,15,0,7865.0,1,Utilities transaction
+TXN-1209,ACC-021,2026-08-29,15:33,56797.23,Credit,Payroll,Bengaluru,18.1775,80.1323,Savings,6,15,0,43200.0,1,Payroll transaction
+TXN-1210,ACC-020,2026-09-12,17:32,31510.67,Transfer,Travel,Secunderabad,16.55915,75.00667,Savings,3,17,0,10880.0,0,Travel transaction
+TXN-1211,ACC-031,2026-09-28,07:05,4631.92,Transfer,Fuel,Hyderabad,18.39631,79.16611,Current,2,7,0,5376.0,0,Fuel transaction
+TXN-1212,ACC-036,2026-09-26,15:35,2906.98,Debit,Fuel,Mumbai,17.76437,76.87708,Business,7,15,0,3612.0,0,Fuel transaction
+TXN-1213,ACC-034,2026-09-19,11:02,2999.93,Debit,Office Supplies,Chennai,16.49346,75.50283,Current,7,11,0,3240.0,0,Office Supplies transaction
+TXN-1214,ACC-034,2026-09-17,11:52,4369.48,Transfer,Maintenance,Chennai,17.18192,76.64525,Current,5,11,0,5472.0,0,Maintenance transaction
+TXN-1215,ACC-034,2026-10-02,17:43,2879.64,Credit,Office Supplies,Chennai,17.28281,79.93135,Business,2,17,0,3240.0,0,Office Supplies transaction
+TXN-1216,ACC-016,2026-09-16,16:14,4010.13,Transfer,Maintenance,Chennai,18.98138,76.35411,Current,5,16,0,7600.0,0,Maintenance transaction
+TXN-1217,ACC-008,2026-08-26,15:55,9470.83,Debit,Maintenance,Secunderabad,18.18074,79.97328,Business,4,15,0,9196.0,0,Maintenance transaction
+TXN-1218,ACC-020,2026-10-01,14:16,9725.55,Transfer,Software,Secunderabad,18.62626,74.66249,Business,6,14,0,11520.0,1,Software transaction
+TXN-1219,ACC-001,2026-09-03,12:32,2184.67,Transfer,Fuel,Hyderabad,18.81722,79.17198,Savings,5,12,0,3024.0,0,Fuel transaction
+TXN-1220,ACC-011,2026-09-22,15:37,10301.46,Debit,Professional Services,Pune,17.89825,78.85767,Savings,1,15,0,9425.0,0,Professional Services transaction
+TXN-1221,ACC-006,2026-09-10,13:00,6628.94,Transfer,Utilities,Mumbai,19.0128,74.84132,Current,3,13,0,6955.0,1,Utilities transaction
+TXN-1222,ACC-025,2026-09-07,19:17,10333.62,Debit,Maintenance,Hyderabad,17.54479,73.90457,Business,5,19,0,6536.0,0,Maintenance transaction
+TXN-1223,ACC-033,2026-09-21,14:40,13547.83,Transfer,Marketing,Bengaluru,18.09949,80.27066,Business,3,14,0,7150.0,0,Marketing transaction
+TXN-1224,ACC-016,2026-08-24,17:33,11050.86,Debit,Marketing,Chennai,16.27545,79.21892,Savings,5,17,0,11000.0,0,Marketing transaction
+TXN-1225,ACC-015,2026-08-27,12:11,8127.46,Transfer,Software,Bengaluru,18.79008,78.00694,Savings,3,12,0,8370.0,1,Software transaction
+TXN-1226,ACC-035,2026-08-29,09:17,13731.73,Credit,Rent,Pune,16.61806,77.75371,Business,6,9,0,19750.0,0,Rent transaction
+TXN-1227,ACC-033,2026-09-03,13:39,8027.45,Credit,Rent,Bengaluru,18.5869,79.65419,Savings,5,13,0,16250.0,1,Rent transaction
+TXN-1228,ACC-015,2026-10-03,16:57,7917.81,Debit,Fuel,Bengaluru,16.89981,74.24402,Business,4,16,0,3906.0,0,Fuel transaction
+TXN-1229,ACC-024,2026-09-15,14:53,19151.9,Credit,Rent,Mumbai,18.27821,78.7159,Business,3,14,0,19750.0,0,Rent transaction
+TXN-1230,ACC-040,2026-09-19,13:51,11251.01,Debit,Utilities,Chennai,17.83985,74.39922,Current,9,13,0,7410.0,0,Utilities transaction
+TXN-1231,ACC-031,2026-09-03,14:50,8018.66,Credit,Utilities,Hyderabad,17.98142,76.65202,Current,5,14,0,8320.0,1,Utilities transaction
+TXN-1232,ACC-012,2026-09-11,13:28,15158.01,Debit,Equipment Purchase,Mumbai,17.0274,78.57854,Current,7,13,0,20160.0,0,Equipment Purchase transaction
+TXN-1233,ACC-015,2026-09-03,13:40,8222.15,Credit,Software,Bengaluru,17.34058,79.44684,Business,6,13,0,8370.0,0,Software transaction
+TXN-1234,ACC-035,2026-09-24,10:31,6852.28,Transfer,Software,Pune,16.91704,75.34782,Savings,5,10,0,7110.0,1,Software transaction
+TXN-1235,ACC-034,2026-08-30,13:51,2289.45,Credit,Office Supplies,Chennai,17.68564,79.02915,Current,2,13,0,3240.0,0,Office Supplies transaction
+TXN-1236,ACC-011,2026-09-09,09:24,5055.82,Transfer,Software,Pune,17.0664,77.36328,Business,3,9,0,5850.0,0,Software transaction
+TXN-1237,ACC-002,2026-09-08,12:16,14044.2,Debit,Professional Services,Secunderabad,16.70744,78.74776,Savings,4,12,0,11455.0,0,Professional Services transaction
+TXN-1238,ACC-035,2026-09-09,13:46,11852.7,Transfer,Equipment Purchase,Pune,18.29964,79.22673,Business,2,13,0,22120.0,0,Equipment Purchase transaction
+TXN-1239,ACC-005,2026-08-27,17:52,12435.4,Credit,Professional Services,Pune,16.41012,79.93571,Business,6,17,0,14500.0,0,Professional Services transaction
+TXN-1240,ACC-021,2026-09-13,07:40,28749.1,Debit,Inventory,Bengaluru,17.2287,77.98074,Savings,4,7,0,24300.0,0,Inventory transaction
+TXN-1241,ACC-023,2026-09-16,16:15,13872.02,Debit,Inventory,Pune,18.20647,78.23321,Business,3,16,0,12960.0,0,Inventory transaction
+TXN-1242,ACC-029,2026-09-17,18:56,15393.81,Debit,Professional Services,Pune,18.01762,76.03171,Current,4,18,0,16530.0,0,Professional Services transaction
+TXN-1243,ACC-022,2026-09-24,17:46,45629.54,Debit,Rent,Chennai,17.15346,78.5248,Business,2,17,0,16250.0,1,Rent transaction
+TXN-1244,ACC-032,2026-09-01,15:09,5286.43,Credit,Fuel,Secunderabad,17.82016,75.56473,Business,1,15,0,5670.0,0,Fuel transaction
+TXN-1245,ACC-031,2026-09-20,14:26,10880.16,Transfer,Utilities,Hyderabad,18.34332,76.7704,Savings,2,14,0,8320.0,0,Utilities transaction
+TXN-1246,ACC-010,2026-09-03,18:48,15705.54,Credit,Rent,Chennai,16.33242,78.89381,Current,6,18,0,33750.0,1,Rent transaction
+TXN-1247,ACC-016,2026-09-12,11:26,27276.93,Debit,Professional Services,Chennai,17.29176,76.20955,Savings,3,11,0,14500.0,0,Professional Services transaction
+TXN-1248,ACC-012,2026-09-12,13:48,8712.22,Debit,Utilities,Mumbai,16.50233,76.43802,Business,6,13,0,4680.0,1,Utilities transaction
+TXN-1249,ACC-034,2026-08-29,11:24,2002.06,Transfer,Fuel,Chennai,17.52743,73.83372,Current,1,11,0,3024.0,0,Fuel transaction
+TXN-1250,ACC-018,2026-09-04,12:07,6637.65,Debit,Maintenance,Mumbai,16.47134,77.32784,Business,3,12,0,8664.0,0,Maintenance transaction
+TXN-1251,ACC-013,2026-09-08,14:32,11581.09,Debit,Equipment Purchase,Hyderabad,19.0457,77.77656,Business,3,14,0,22120.0,0,Equipment Purchase transaction
+TXN-1252,ACC-026,2026-09-21,16:59,9181.43,Credit,Professional Services,Secunderabad,16.63276,80.28066,Savings,4,16,0,13485.0,0,Professional Services transaction
+TXN-1253,ACC-020,2026-09-10,15:38,18254.87,Debit,Software,Secunderabad,16.64946,75.31119,Current,5,15,0,11520.0,0,Software transaction
+TXN-1254,ACC-011,2026-10-02,17:02,1933.07,Transfer,Fuel,Pune,18.15502,74.09594,Business,1,17,0,2730.0,0,Fuel transaction
+TXN-1255,ACC-007,2026-09-20,21:41,5332.4,Transfer,Utilities,Hyderabad,17.5682,75.82246,Savings,4,21,0,7410.0,0,Utilities transaction
+TXN-1256,ACC-029,2026-08-27,07:14,5029.12,Credit,Fuel,Pune,17.413,75.84108,Business,3,7,0,4788.0,0,Fuel transaction
+TXN-1257,ACC-022,2026-09-29,14:57,2922.64,Transfer,Office Supplies,Chennai,16.23425,75.33645,Business,5,14,0,2925.0,0,Office Supplies transaction
+TXN-1258,ACC-028,2026-10-05,10:47,14583.45,Transfer,Inventory,Chennai,17.86415,74.9099,Business,4,10,0,19260.0,0,Inventory transaction
+TXN-1259,ACC-011,2026-09-14,16:39,5621.39,Transfer,Travel,Pune,17.95813,74.13793,Business,8,16,0,5525.0,0,Travel transaction
+TXN-1260,ACC-030,2026-09-04,14:03,25017.79,Debit,Equipment Purchase,Mumbai,18.09983,75.08658,Current,6,14,0,33880.0,0,Equipment Purchase transaction
+TXN-1261,ACC-035,2026-10-08,11:05,30779.09,Credit,Rent,Pune,16.52118,74.22474,Current,3,11,0,19750.0,0,Rent transaction
+TXN-1262,ACC-031,2026-09-27,14:17,7870.96,Credit,Utilities,Hyderabad,17.34043,78.5994,Business,5,14,0,8320.0,1,Utilities transaction
+TXN-1263,ACC-024,2026-09-14,13:34,17774.47,Credit,Inventory,Mumbai,16.93628,75.21868,Business,5,13,0,14220.0,0,Inventory transaction
+TXN-1264,ACC-006,2026-10-08,13:42,45205.49,Debit,Inventory,Mumbai,18.4177,76.65273,Savings,3,13,0,19260.0,0,Inventory transaction
+TXN-1265,ACC-016,2026-09-27,13:58,6114.59,Transfer,Travel,Chennai,18.47023,77.7564,Current,4,13,0,8500.0,0,Travel transaction
+TXN-1266,ACC-035,2026-09-15,17:37,24165.03,Debit,Equipment Purchase,Pune,17.28437,76.64381,Savings,4,17,0,22120.0,0,Equipment Purchase transaction
+TXN-1267,ACC-037,2026-09-11,15:10,27230.97,Credit,Marketing,Hyderabad,18.56571,78.47549,Savings,1,15,0,10230.0,0,Marketing transaction
+TXN-1268,ACC-004,2026-10-02,08:54,3446.12,Debit,Office Supplies,Chennai,18.11201,78.85407,Business,3,8,0,4185.0,0,Office Supplies transaction
+TXN-1269,ACC-033,2026-09-28,11:18,7428.67,Debit,Professional Services,Bengaluru,17.3318,75.40073,Business,8,11,0,9425.0,0,Professional Services transaction
+TXN-1270,ACC-007,2026-08-31,11:57,4897.41,Debit,Maintenance,Hyderabad,17.0752,75.38423,Savings,6,11,0,8664.0,0,Maintenance transaction
+TXN-1271,ACC-016,2026-09-25,13:39,18671.0,Transfer,Marketing,Chennai,16.67032,75.89369,Business,3,13,0,11000.0,0,Marketing transaction
+TXN-1272,ACC-033,2026-09-08,10:27,24688.9,Debit,Rent,Bengaluru,18.81321,74.34889,Current,3,10,0,16250.0,0,Rent transaction
+TXN-1273,ACC-028,2026-08-25,20:43,7562.04,Debit,Utilities,Chennai,16.70177,80.2737,Business,2,20,0,6955.0,1,Utilities transaction
+TXN-1274,ACC-003,2026-08-26,09:49,6099.67,Debit,Utilities,Bengaluru,16.55898,74.92852,Current,4,9,0,5590.0,1,Utilities transaction
+TXN-1275,ACC-020,2026-09-08,12:04,4625.22,Debit,Office Supplies,Secunderabad,17.94233,78.25827,Savings,4,12,0,5760.0,0,Office Supplies transaction
+TXN-1276,ACC-010,2026-08-28,10:11,13081.38,Debit,Office Supplies,Chennai,17.25757,73.7288,Savings,6,10,0,6075.0,0,Office Supplies transaction
+TXN-1277,ACC-002,2026-09-16,10:56,9184.6,Transfer,Marketing,Secunderabad,18.30833,79.40289,Business,2,10,0,8690.0,0,Marketing transaction
+TXN-1278,ACC-006,2026-08-30,13:17,11725.57,Credit,Professional Services,Mumbai,18.9022,78.72595,Business,6,13,0,15515.0,0,Professional Services transaction
+TXN-1279,ACC-013,2026-10-05,15:55,23067.62,Debit,Rent,Hyderabad,16.47653,76.02124,Business,2,15,0,19750.0,1,Rent transaction
+TXN-1280,ACC-007,2026-09-25,12:47,19836.01,Transfer,Maintenance,Hyderabad,17.15874,75.51002,Business,3,12,0,8664.0,0,Maintenance transaction
+TXN-1281,ACC-022,2026-09-30,14:45,6168.88,Debit,Office Supplies,Chennai,16.52516,77.12081,Current,5,14,0,2925.0,0,Office Supplies transaction
+TXN-1282,ACC-015,2026-08-28,14:09,13196.08,Credit,Professional Services,Bengaluru,17.8326,79.76646,Savings,3,14,0,13485.0,0,Professional Services transaction
+TXN-1283,ACC-032,2026-09-06,15:06,37994.61,Transfer,Inventory,Secunderabad,16.3082,79.00641,Current,6,15,0,24300.0,0,Inventory transaction
+TXN-1284,ACC-004,2026-08-28,15:18,29475.82,Transfer,Rent,Chennai,16.86143,74.94594,Current,3,15,0,23250.0,1,Rent transaction
+TXN-1285,ACC-040,2026-09-28,16:57,34748.16,Transfer,Payroll,Chennai,18.12746,73.92183,Business,7,16,0,36480.0,1,Payroll transaction
+TXN-1286,ACC-002,2026-09-05,13:05,11294.82,Debit,Inventory,Secunderabad,17.22296,78.45503,Current,3,13,0,14220.0,0,Inventory transaction
+TXN-1287,ACC-030,2026-09-19,17:29,26723.39,Debit,Professional Services,Mumbai,17.1256,75.3892,Savings,4,17,0,17545.0,0,Professional Services transaction
+TXN-1288,ACC-035,2026-10-08,09:43,18415.55,Credit,Inventory,Pune,16.40754,79.86036,Current,1,9,0,14220.0,0,Inventory transaction
+TXN-1289,ACC-033,2026-10-06,15:32,14943.0,Transfer,Professional Services,Bengaluru,16.44812,75.75407,Business,2,15,0,9425.0,0,Professional Services transaction
+TXN-1290,ACC-014,2026-08-24,11:26,7529.64,Debit,Maintenance,Secunderabad,16.99742,73.87293,Savings,6,11,0,6536.0,0,Maintenance transaction
+TXN-1291,ACC-004,2026-09-04,12:22,18019.9,Transfer,Equipment Purchase,Chennai,16.65704,74.38317,Savings,4,12,0,26040.0,0,Equipment Purchase transaction
+TXN-1292,ACC-028,2026-09-16,16:40,21244.42,Credit,Equipment Purchase,Chennai,16.3123,75.87103,Business,3,16,0,29960.0,0,Equipment Purchase transaction
+TXN-1293,ACC-009,2026-09-15,18:21,7034.17,Debit,Utilities,Bengaluru,17.15792,78.2807,Business,5,18,0,8320.0,1,Utilities transaction
+TXN-1294,ACC-014,2026-09-22,14:08,22356.54,Debit,Payroll,Secunderabad,17.67102,76.50062,Business,1,14,0,27520.0,0,Payroll transaction
+TXN-1295,ACC-025,2026-08-24,16:54,22489.04,Credit,Marketing,Hyderabad,17.79204,79.9339,Savings,5,16,0,9460.0,0,Marketing transaction
+TXN-1296,ACC-021,2026-09-13,16:16,25752.46,Debit,Inventory,Bengaluru,18.8881,74.19356,Savings,2,16,0,24300.0,0,Inventory transaction
+TXN-1297,ACC-030,2026-08-29,15:41,5836.98,Transfer,Office Supplies,Mumbai,16.49235,78.04838,Current,7,15,0,5445.0,0,Office Supplies transaction
+TXN-1298,ACC-040,2026-08-30,14:30,14902.23,Debit,Professional Services,Chennai,18.69623,75.95898,Savings,4,14,0,16530.0,0,Professional Services transaction
+TXN-1299,ACC-011,2026-09-23,14:24,12606.05,Debit,Inventory,Pune,19.05536,75.33615,Current,5,14,0,11700.0,0,Inventory transaction
+TXN-1300,ACC-030,2026-08-27,13:33,14193.25,Credit,Inventory,Mumbai,16.9657,74.93987,Current,1,13,0,21780.0,0,Inventory transaction
+TXN-1301,ACC-002,2026-08-25,12:21,3360.08,Debit,Fuel,Secunderabad,19.07351,78.86307,Business,7,12,0,3318.0,0,Fuel transaction
+TXN-1302,ACC-012,2026-10-06,14:54,6728.98,Credit,Travel,Mumbai,18.37884,78.93394,Business,3,14,0,6120.0,0,Travel transaction
+TXN-1303,ACC-003,2026-09-21,08:18,17530.78,Transfer,Payroll,Bengaluru,18.59747,79.69974,Current,4,8,0,27520.0,1,Payroll transaction
+TXN-1304,ACC-007,2026-10-05,16:33,5492.32,Debit,Utilities,Hyderabad,16.20719,79.34935,Current,7,16,0,7410.0,1,Utilities transaction
+TXN-1305,ACC-022,2026-09-21,10:07,17895.81,Transfer,Payroll,Chennai,17.84462,76.97729,Savings,6,10,0,20800.0,1,Payroll transaction
+TXN-1306,ACC-018,2026-09-30,18:40,15634.25,Debit,Marketing,Mumbai,18.41959,77.13766,Current,7,18,0,12540.0,0,Marketing transaction
+TXN-1307,ACC-025,2026-10-02,13:06,3683.26,Transfer,Fuel,Hyderabad,18.62909,76.89694,Business,2,13,0,3612.0,0,Fuel transaction
+TXN-1308,ACC-020,2026-08-26,15:00,5007.1,Debit,Maintenance,Secunderabad,18.77751,77.29105,Business,5,15,0,9728.0,0,Maintenance transaction
+TXN-1309,ACC-022,2026-10-03,09:13,10476.24,Credit,Equipment Purchase,Chennai,17.80428,75.97065,Savings,4,9,0,18200.0,0,Equipment Purchase transaction
+TXN-1310,ACC-006,2026-09-16,09:17,8763.92,Debit,Utilities,Mumbai,18.69613,76.88719,Savings,7,9,0,6955.0,0,Utilities transaction
+TXN-1311,ACC-023,2026-10-01,12:18,6354.45,Credit,Travel,Pune,18.5783,75.39406,Current,3,12,0,6120.0,0,Travel transaction
+TXN-1312,ACC-030,2026-09-27,15:04,19762.47,Transfer,Inventory,Mumbai,17.04852,79.00563,Savings,6,15,0,21780.0,0,Inventory transaction
+TXN-1313,ACC-003,2026-09-08,11:48,4070.77,Debit,Travel,Bengaluru,16.83814,79.87464,Current,7,11,0,7310.0,0,Travel transaction
+TXN-1314,ACC-031,2026-08-24,11:08,9535.82,Credit,Professional Services,Hyderabad,18.78175,77.67687,Current,3,11,0,18560.0,0,Professional Services transaction
+TXN-1315,ACC-023,2026-09-24,14:21,23371.36,Credit,Equipment Purchase,Pune,18.76697,78.1381,Current,6,14,0,20160.0,0,Equipment Purchase transaction
+TXN-1316,ACC-037,2026-09-22,16:11,32855.0,Credit,Inventory,Hyderabad,16.82827,79.01,Savings,4,16,0,16740.0,0,Inventory transaction
+TXN-1317,ACC-021,2026-09-17,15:16,17638.7,Transfer,Marketing,Bengaluru,17.21513,76.2696,Savings,2,15,0,14850.0,0,Marketing transaction
+TXN-1318,ACC-011,2026-09-04,10:51,24599.05,Transfer,Equipment Purchase,Pune,16.65974,76.45255,Business,3,10,0,18200.0,0,Equipment Purchase transaction
+TXN-1319,ACC-027,2026-10-03,14:03,6533.98,Credit,Professional Services,Bengaluru,17.302,77.50042,Business,5,14,0,14500.0,0,Professional Services transaction
+TXN-1320,ACC-036,2026-09-09,11:36,3933.81,Transfer,Fuel,Mumbai,18.33979,74.82862,Business,5,11,0,3612.0,0,Fuel transaction
+TXN-1321,ACC-040,2026-09-12,16:29,18441.64,Credit,Software,Chennai,17.77338,78.66287,Business,5,16,0,10260.0,1,Software transaction
+TXN-1322,ACC-040,2026-09-12,12:17,5809.33,Debit,Utilities,Chennai,17.1607,78.12261,Business,5,12,0,7410.0,1,Utilities transaction
+TXN-1323,ACC-033,2026-09-13,13:44,4246.83,Transfer,Fuel,Bengaluru,17.45094,79.1102,Savings,10,13,0,2730.0,0,Fuel transaction
+TXN-1324,ACC-032,2026-09-29,17:57,2949.8,Transfer,Fuel,Secunderabad,16.93955,78.48326,Savings,6,17,0,5670.0,0,Fuel transaction
+TXN-1325,ACC-039,2026-09-29,15:26,36181.7,Debit,Rent,Bengaluru,18.74154,75.74317,Business,3,15,0,26750.0,0,Rent transaction
+TXN-1326,ACC-024,2026-09-02,09:05,3090.86,Debit,Fuel,Mumbai,18.89076,74.78952,Business,4,9,0,3318.0,0,Fuel transaction
+TXN-1327,ACC-007,2026-10-08,10:19,73120.72,Transfer,Equipment Purchase,Hyderabad,17.17726,78.06953,Current,2,10,0,31920.0,0,Equipment Purchase transaction
+TXN-1328,ACC-012,2026-09-22,14:56,5095.3,Transfer,Marketing,Mumbai,18.98932,74.26083,Savings,5,14,0,7920.0,0,Marketing transaction
+TXN-1329,ACC-020,2026-10-01,13:55,6202.65,Debit,Utilities,Secunderabad,17.14183,73.85372,Business,4,13,0,8320.0,0,Utilities transaction
+TXN-1330,ACC-034,2026-08-31,12:33,12209.46,Debit,Inventory,Chennai,17.10592,74.87617,Business,4,12,0,12960.0,0,Inventory transaction
+TXN-1331,ACC-011,2026-08-24,13:09,3291.2,Debit,Office Supplies,Pune,17.44957,76.27571,Business,5,13,0,2925.0,0,Office Supplies transaction
+TXN-1332,ACC-040,2026-09-12,21:16,6887.26,Credit,Office Supplies,Chennai,17.78045,75.48689,Savings,4,21,0,5130.0,0,Office Supplies transaction
+TXN-1333,ACC-006,2026-09-08,15:56,13052.85,Transfer,Rent,Mumbai,16.31583,78.94718,Savings,4,15,0,26750.0,1,Rent transaction
+TXN-1334,ACC-018,2026-09-06,12:40,33156.79,Credit,Payroll,Mumbai,17.00532,76.1205,Current,6,12,0,36480.0,1,Payroll transaction
+TXN-1335,ACC-034,2026-09-10,14:36,29727.55,Debit,Equipment Purchase,Chennai,16.28184,78.16101,Current,3,14,0,20160.0,0,Equipment Purchase transaction
+TXN-1336,ACC-001,2026-09-08,14:56,4182.3,Transfer,Travel,Hyderabad,16.52341,74.4912,Business,4,14,0,6120.0,0,Travel transaction
+TXN-1337,ACC-024,2026-10-08,18:24,8846.96,Transfer,Marketing,Mumbai,18.28068,79.73636,Current,1,18,0,8690.0,0,Marketing transaction
+TXN-1338,ACC-019,2026-09-25,09:27,4729.35,Transfer,Fuel,Hyderabad,17.69599,77.15291,Current,4,9,0,5082.0,0,Fuel transaction
+TXN-1339,ACC-034,2026-10-05,13:37,3858.6,Credit,Maintenance,Chennai,18.54984,78.35216,Business,2,13,0,5472.0,0,Maintenance transaction
+TXN-1340,ACC-010,2026-09-17,11:22,20337.36,Credit,Inventory,Chennai,17.08424,77.12343,Current,7,11,0,24300.0,0,Inventory transaction
+TXN-1341,ACC-037,2026-09-18,10:39,32851.15,Transfer,Payroll,Hyderabad,16.60267,79.70559,Savings,5,10,0,29760.0,1,Payroll transaction
+TXN-1342,ACC-027,2026-09-17,14:35,24093.6,Credit,Rent,Bengaluru,16.47033,74.18207,Current,3,14,0,25000.0,1,Rent transaction
+TXN-1343,ACC-038,2026-09-01,12:11,14157.96,Transfer,Rent,Secunderabad,17.43373,80.02957,Business,3,12,0,25000.0,0,Rent transaction
+TXN-1344,ACC-026,2026-10-06,08:42,46351.49,Credit,Rent,Secunderabad,18.21492,75.5074,Business,4,8,0,23250.0,1,Rent transaction
+TXN-1345,ACC-038,2026-09-08,10:05,37881.79,Transfer,Payroll,Secunderabad,16.42145,75.03524,Business,3,10,0,32000.0,1,Payroll transaction
+TXN-1346,ACC-037,2026-08-26,12:08,6775.19,Debit,Marketing,Hyderabad,16.87925,76.15572,Current,2,12,0,10230.0,0,Marketing transaction
+TXN-1347,ACC-009,2026-08-27,09:13,18314.54,Transfer,Equipment Purchase,Bengaluru,16.88937,73.79324,Business,4,9,0,35840.0,0,Equipment Purchase transaction
+TXN-1348,ACC-027,2026-08-28,10:27,2149.5,Credit,Fuel,Bengaluru,17.63637,74.70628,Business,5,10,0,4200.0,0,Fuel transaction
+TXN-1349,ACC-017,2026-08-31,14:36,9981.19,Credit,Travel,Pune,17.78997,75.35402,Current,2,14,0,9095.0,0,Travel transaction
+TXN-1350,ACC-033,2026-09-13,09:05,2718.89,Debit,Maintenance,Bengaluru,18.09069,78.07528,Savings,4,9,0,4940.0,0,Maintenance transaction
+TXN-1351,ACC-025,2026-09-15,17:54,9734.49,Debit,Marketing,Hyderabad,17.10864,79.2891,Current,3,17,0,9460.0,0,Marketing transaction
+TXN-1352,ACC-022,2026-09-10,13:49,1278.76,Credit,Office Supplies,Chennai,16.96872,76.12038,Business,4,13,0,2925.0,0,Office Supplies transaction
+TXN-1353,ACC-004,2026-09-26,11:56,39353.88,Credit,Equipment Purchase,Chennai,19.00378,78.34414,Savings,6,11,0,26040.0,0,Equipment Purchase transaction
+TXN-1354,ACC-031,2026-08-31,14:35,18584.14,Transfer,Equipment Purchase,Hyderabad,18.07664,76.46975,Current,4,14,0,35840.0,0,Equipment Purchase transaction
+TXN-1355,ACC-040,2026-09-01,12:01,18430.95,Debit,Inventory,Chennai,16.99519,78.51319,Current,3,12,0,20520.0,0,Inventory transaction
+TXN-1356,ACC-005,2026-09-07,12:32,18135.62,Transfer,Equipment Purchase,Pune,16.49276,78.74777,Business,2,12,0,28000.0,0,Equipment Purchase transaction
+TXN-1357,ACC-023,2026-10-01,15:11,22422.08,Credit,Equipment Purchase,Pune,17.08693,79.68894,Current,6,15,0,20160.0,0,Equipment Purchase transaction
+TXN-1358,ACC-028,2026-08-28,13:42,16766.71,Debit,Maintenance,Chennai,17.90957,79.41021,Business,6,13,0,8132.0,0,Maintenance transaction
+TXN-1359,ACC-039,2026-09-07,15:29,11839.02,Transfer,Professional Services,Bengaluru,18.51545,79.69688,Current,5,15,0,15515.0,0,Professional Services transaction
+TXN-1360,ACC-026,2026-09-26,13:37,17377.33,Debit,Rent,Secunderabad,18.25689,78.95168,Savings,2,13,0,23250.0,1,Rent transaction
+TXN-1361,ACC-026,2026-09-10,13:31,3885.15,Debit,Office Supplies,Secunderabad,17.46175,76.44348,Savings,3,13,0,4185.0,0,Office Supplies transaction
+TXN-1362,ACC-040,2026-09-04,15:32,45918.86,Credit,Equipment Purchase,Chennai,16.40615,76.6761,Savings,2,15,0,31920.0,0,Equipment Purchase transaction
+TXN-1363,ACC-010,2026-09-02,11:31,17679.7,Transfer,Marketing,Chennai,17.75581,76.73301,Current,4,11,0,14850.0,0,Marketing transaction
+TXN-1364,ACC-036,2026-10-07,12:42,2440.3,Transfer,Travel,Mumbai,17.60452,79.76407,Savings,8,12,0,7310.0,0,Travel transaction
+TXN-1365,ACC-039,2026-09-30,11:06,12078.54,Credit,Marketing,Bengaluru,17.80184,79.21684,Savings,2,11,0,11770.0,0,Marketing transaction
+TXN-1366,ACC-037,2026-09-05,13:31,8960.74,Transfer,Maintenance,Hyderabad,18.53807,74.39838,Business,2,13,0,7068.0,0,Maintenance transaction
+TXN-1367,ACC-004,2026-09-21,15:44,4237.77,Transfer,Office Supplies,Chennai,18.22789,76.05417,Business,2,15,0,4185.0,0,Office Supplies transaction
+TXN-1368,ACC-003,2026-09-13,11:06,4154.95,Debit,Utilities,Bengaluru,16.72702,73.79302,Savings,2,11,0,5590.0,0,Utilities transaction
+TXN-1369,ACC-030,2026-09-08,10:09,30969.58,Transfer,Equipment Purchase,Mumbai,16.295,78.5333,Savings,4,10,0,33880.0,0,Equipment Purchase transaction
+TXN-1370,ACC-016,2026-09-28,13:04,10231.41,Credit,Software,Chennai,18.67802,73.83719,Business,7,13,0,9000.0,0,Software transaction
+TXN-1371,ACC-040,2026-09-02,11:48,8816.31,Transfer,Marketing,Chennai,17.54899,80.01084,Business,4,11,0,12540.0,0,Marketing transaction
+TXN-1372,ACC-038,2026-09-05,14:57,13189.36,Debit,Professional Services,Secunderabad,18.70119,75.09658,Savings,9,14,0,14500.0,0,Professional Services transaction
+TXN-1373,ACC-036,2026-08-25,11:24,5162.22,Transfer,Professional Services,Mumbai,17.985,74.5564,Current,2,11,0,12470.0,0,Professional Services transaction
+TXN-1374,ACC-002,2026-10-04,11:09,5145.05,Debit,Maintenance,Secunderabad,17.91069,79.04322,Business,4,11,0,6004.0,0,Maintenance transaction
+TXN-1375,ACC-017,2026-09-11,14:26,3859.6,Debit,Travel,Pune,17.80519,75.9721,Business,6,14,0,9095.0,0,Travel transaction
+TXN-1376,ACC-031,2026-10-06,14:37,6535.15,Credit,Office Supplies,Hyderabad,18.9108,78.89988,Current,3,14,0,5760.0,0,Office Supplies transaction
+TXN-1377,ACC-001,2026-10-02,14:23,35588.43,Transfer,Rent,Hyderabad,16.37052,78.59355,Current,2,14,0,18000.0,1,Rent transaction
+TXN-1378,ACC-016,2026-10-01,15:55,13850.21,Debit,Travel,Chennai,16.4039,73.82033,Savings,2,15,0,8500.0,0,Travel transaction
+TXN-1379,ACC-039,2026-08-25,13:30,35011.07,Credit,Rent,Bengaluru,18.4215,79.48936,Savings,3,13,0,26750.0,0,Rent transaction
+TXN-1380,ACC-030,2026-09-16,17:49,26032.61,Credit,Equipment Purchase,Mumbai,18.20551,79.98452,Savings,2,17,0,33880.0,0,Equipment Purchase transaction
+TXN-1381,ACC-021,2026-09-07,17:29,19427.9,Transfer,Software,Bengaluru,16.62521,76.55098,Current,5,17,0,12150.0,1,Software transaction
+TXN-1382,ACC-002,2026-09-06,10:07,3071.1,Transfer,Fuel,Secunderabad,16.27601,77.14518,Savings,4,10,0,3318.0,0,Fuel transaction
+TXN-1383,ACC-032,2026-09-07,07:13,15854.53,Debit,Utilities,Secunderabad,16.78295,78.71795,Current,3,7,0,8775.0,0,Utilities transaction
+TXN-1384,ACC-011,2026-09-16,11:39,2852.69,Transfer,Travel,Pune,18.51422,78.62757,Savings,3,11,0,5525.0,0,Travel transaction
+TXN-1385,ACC-021,2026-08-24,11:16,23532.43,Credit,Marketing,Bengaluru,16.35162,78.60043,Current,4,11,0,14850.0,0,Marketing transaction
+TXN-1386,ACC-010,2026-08-30,14:15,15123.49,Transfer,Marketing,Chennai,17.08437,74.89006,Current,1,14,0,14850.0,0,Marketing transaction
+TXN-1387,ACC-021,2026-09-21,13:13,8495.28,Debit,Travel,Bengaluru,16.28651,75.73364,Business,2,13,0,11475.0,0,Travel transaction
+TXN-1388,ACC-033,2026-10-04,18:49,7722.88,Credit,Rent,Bengaluru,17.11259,79.49423,Business,4,18,0,16250.0,1,Rent transaction
+TXN-1389,ACC-028,2026-10-04,13:06,24852.46,Debit,Professional Services,Chennai,19.02363,78.01247,Savings,3,13,0,15515.0,0,Professional Services transaction
+TXN-1390,ACC-036,2026-09-23,13:31,3451.68,Transfer,Utilities,Mumbai,17.40279,75.85933,Current,2,13,0,5590.0,0,Utilities transaction
+TXN-1391,ACC-009,2026-10-07,12:10,16234.41,Debit,Marketing,Bengaluru,16.31745,76.97132,Current,5,12,0,14080.0,0,Marketing transaction
+TXN-1392,ACC-005,2026-09-23,15:32,67341.04,Debit,Payroll,Pune,16.52509,75.60335,Savings,6,15,0,32000.0,1,Payroll transaction
+TXN-1393,ACC-031,2026-09-17,09:31,12573.97,Debit,Maintenance,Hyderabad,17.58886,76.9598,Current,2,9,0,9728.0,0,Maintenance transaction
+TXN-1394,ACC-009,2026-10-02,12:46,23687.44,Credit,Inventory,Bengaluru,17.3938,74.93893,Current,3,12,0,23040.0,0,Inventory transaction
+TXN-1395,ACC-016,2026-09-27,14:19,14388.16,Debit,Inventory,Chennai,17.45052,75.67038,Business,3,14,0,18000.0,0,Inventory transaction
+TXN-1396,ACC-025,2026-09-28,14:14,10984.06,Transfer,Maintenance,Hyderabad,18.43477,75.793,Current,7,14,0,6536.0,0,Maintenance transaction
+TXN-1397,ACC-025,2026-09-23,09:28,3532.25,Transfer,Fuel,Hyderabad,16.28593,80.23175,Business,4,9,0,3612.0,0,Fuel transaction
+TXN-1398,ACC-028,2026-09-15,07:21,22152.5,Credit,Inventory,Chennai,16.20473,78.15994,Savings,4,7,0,19260.0,0,Inventory transaction
+TXN-1399,ACC-014,2026-09-04,09:44,13955.26,Credit,Inventory,Secunderabad,19.07142,75.30133,Savings,1,9,0,15480.0,0,Inventory transaction
+TXN-1400,ACC-001,2026-09-05,14:48,3305.77,Credit,Fuel,Hyderabad,17.87004,75.70272,Current,2,14,0,3024.0,0,Fuel transaction
+TXN-1401,ACC-004,2026-10-03,11:09,64425.25,Credit,Rent,Chennai,18.16592,78.91797,Business,3,11,0,23250.0,1,Rent transaction
+TXN-1402,ACC-038,2026-10-02,14:58,10598.72,Debit,Software,Secunderabad,16.81289,80.15508,Business,6,14,0,9000.0,0,Software transaction
+TXN-1403,ACC-035,2026-09-12,14:10,4468.35,Transfer,Travel,Pune,19.02244,79.40332,Business,8,14,0,6715.0,0,Travel transaction
+TXN-1404,ACC-018,2026-09-06,15:40,3490.1,Credit,Office Supplies,Mumbai,17.49513,77.08043,Current,2,15,0,5130.0,0,Office Supplies transaction
+TXN-1405,ACC-012,2026-09-02,12:56,7406.47,Credit,Marketing,Mumbai,16.96856,75.50136,Business,4,12,0,7920.0,0,Marketing transaction
+TXN-1406,ACC-007,2026-09-13,14:19,11355.79,Debit,Marketing,Hyderabad,16.70996,75.15812,Savings,2,14,0,12540.0,0,Marketing transaction
+TXN-1407,ACC-022,2026-09-02,11:00,13646.05,Transfer,Inventory,Chennai,18.6488,78.99746,Current,5,11,0,11700.0,0,Inventory transaction
+TXN-1408,ACC-019,2026-08-29,16:07,9585.45,Transfer,Software,Hyderabad,17.51883,74.24835,Savings,4,16,0,10890.0,0,Software transaction
+TXN-1409,ACC-018,2026-09-19,10:24,28612.1,Credit,Inventory,Mumbai,16.30126,75.55622,Business,3,10,0,20520.0,0,Inventory transaction
+TXN-1410,ACC-002,2026-09-23,13:08,1955.86,Credit,Software,Secunderabad,19.09104,75.99595,Savings,4,13,0,7110.0,0,Software transaction
+TXN-1411,ACC-001,2026-09-06,14:27,7257.13,Credit,Utilities,Hyderabad,17.58763,77.16441,Current,5,14,0,4680.0,0,Utilities transaction
+TXN-1412,ACC-036,2026-09-28,08:58,45243.29,Transfer,Equipment Purchase,Mumbai,17.44089,74.80456,Business,3,8,0,24080.0,0,Equipment Purchase transaction
+TXN-1413,ACC-003,2026-09-08,15:47,33094.64,Credit,Equipment Purchase,Bengaluru,17.66917,74.68089,Current,4,15,0,24080.0,0,Equipment Purchase transaction
+TXN-1414,ACC-017,2026-09-13,10:32,9849.04,Transfer,Travel,Pune,16.95193,77.69417,Savings,2,10,0,9095.0,0,Travel transaction
+TXN-1415,ACC-031,2026-09-11,17:18,18281.48,Credit,Inventory,Hyderabad,18.05119,75.08226,Business,5,17,0,23040.0,0,Inventory transaction
+TXN-1416,ACC-001,2026-09-03,15:46,16070.57,Credit,Equipment Purchase,Hyderabad,17.98967,79.43464,Current,1,15,0,20160.0,0,Equipment Purchase transaction
+TXN-1417,ACC-037,2026-08-29,10:11,8061.8,Transfer,Maintenance,Hyderabad,17.65482,77.02479,Savings,6,10,0,7068.0,0,Maintenance transaction
+TXN-1418,ACC-020,2026-10-05,13:30,23205.64,Credit,Rent,Secunderabad,17.49509,73.73998,Business,5,13,0,32000.0,1,Rent transaction
+TXN-1419,ACC-032,2026-08-27,12:25,19120.23,Transfer,Equipment Purchase,Secunderabad,16.59681,78.21804,Savings,8,12,0,37800.0,0,Equipment Purchase transaction
+TXN-1420,ACC-019,2026-09-15,17:01,33960.38,Transfer,Rent,Hyderabad,18.39821,76.58322,Savings,3,17,0,30250.0,1,Rent transaction
+TXN-1421,ACC-007,2026-09-02,10:02,23699.88,Debit,Equipment Purchase,Hyderabad,18.1748,77.05088,Current,5,10,0,31920.0,0,Equipment Purchase transaction
+TXN-1422,ACC-016,2026-10-06,16:25,10574.66,Credit,Marketing,Chennai,18.24169,76.41445,Current,5,16,0,11000.0,0,Marketing transaction
+TXN-1423,ACC-012,2026-09-11,14:10,3812.58,Transfer,Fuel,Mumbai,16.41372,73.77097,Savings,6,14,0,3024.0,0,Fuel transaction
+TXN-1424,ACC-033,2026-08-29,12:09,15906.65,Credit,Rent,Bengaluru,18.10215,74.60159,Business,3,12,0,16250.0,1,Rent transaction
+TXN-1425,ACC-030,2026-09-28,12:12,2124.64,Debit,Office Supplies,Mumbai,17.54284,77.85955,Savings,2,12,0,5445.0,0,Office Supplies transaction
+TXN-1426,ACC-025,2026-08-25,13:16,11933.09,Credit,Professional Services,Hyderabad,16.88981,76.62068,Business,4,13,0,12470.0,0,Professional Services transaction
+TXN-1427,ACC-037,2026-09-22,18:26,16326.28,Debit,Payroll,Hyderabad,17.25406,74.68825,Current,4,18,0,29760.0,0,Payroll transaction
+TXN-1428,ACC-038,2026-09-20,10:36,29178.73,Debit,Rent,Secunderabad,17.01352,76.6179,Business,4,10,0,25000.0,0,Rent transaction
+TXN-1429,ACC-021,2026-09-05,09:41,8502.15,Debit,Software,Bengaluru,17.85927,79.50427,Savings,6,9,0,12150.0,0,Software transaction
+TXN-1430,ACC-021,2026-08-29,07:40,5558.92,Credit,Travel,Bengaluru,18.13698,79.77464,Savings,5,7,0,11475.0,0,Travel transaction
+TXN-1431,ACC-005,2026-09-11,14:23,9023.2,Credit,Maintenance,Pune,18.27833,75.59217,Current,4,14,0,7600.0,0,Maintenance transaction
+TXN-1432,ACC-022,2026-09-27,13:37,2320.76,Transfer,Fuel,Chennai,18.03184,74.93988,Savings,3,13,0,2730.0,0,Fuel transaction
+TXN-1433,ACC-016,2026-10-02,17:03,24127.76,Credit,Payroll,Chennai,19.04386,75.2034,Business,7,17,0,32000.0,0,Payroll transaction
+TXN-1434,ACC-038,2026-09-03,10:51,12013.42,Debit,Equipment Purchase,Secunderabad,16.90672,75.25534,Current,3,10,0,28000.0,0,Equipment Purchase transaction
+TXN-1435,ACC-014,2026-08-24,15:22,5653.35,Debit,Office Supplies,Secunderabad,18.73114,77.5423,Business,3,15,0,3870.0,0,Office Supplies transaction
+TXN-1436,ACC-017,2026-09-11,11:27,2601.43,Debit,Office Supplies,Pune,17.16514,77.8785,Business,5,11,0,4815.0,0,Office Supplies transaction
+TXN-1437,ACC-023,2026-09-01,13:55,15120.0,Transfer,Travel,Pune,17.56633,76.03104,Business,5,13,0,6120.0,0,Travel transaction
+TXN-1438,ACC-023,2026-09-21,14:13,18354.59,Credit,Payroll,Pune,18.08726,78.33242,Savings,2,14,0,23040.0,1,Payroll transaction
+TXN-1439,ACC-033,2026-09-11,09:14,6988.17,Transfer,Travel,Bengaluru,17.61146,77.66561,Current,3,9,0,5525.0,0,Travel transaction
+TXN-1440,ACC-039,2026-09-13,13:55,4908.72,Transfer,Marketing,Bengaluru,16.27404,73.74921,Current,5,13,0,11770.0,0,Marketing transaction
+TXN-1441,ACC-035,2026-10-02,10:02,4129.91,Credit,Office Supplies,Pune,18.41267,75.2889,Savings,3,10,0,3555.0,0,Office Supplies transaction
+TXN-1442,ACC-009,2026-08-30,09:18,11769.67,Credit,Travel,Bengaluru,16.85402,76.48314,Savings,4,9,0,10880.0,0,Travel transaction
+TXN-1443,ACC-020,2026-09-18,12:07,40084.21,Transfer,Rent,Secunderabad,17.07595,74.65643,Business,4,12,0,32000.0,1,Rent transaction
+TXN-1444,ACC-009,2026-10-05,17:30,18397.26,Debit,Utilities,Bengaluru,17.66663,80.19647,Current,3,17,0,8320.0,1,Utilities transaction
+TXN-1445,ACC-025,2026-09-03,07:29,28461.37,Transfer,Payroll,Hyderabad,17.39945,78.87392,Savings,4,7,0,27520.0,1,Payroll transaction
+TXN-1446,ACC-040,2026-09-12,14:56,8922.5,Credit,Software,Chennai,18.69929,77.41749,Savings,6,14,0,10260.0,1,Software transaction
+TXN-1447,ACC-033,2026-09-06,18:01,2850.79,Transfer,Software,Bengaluru,16.69808,77.74019,Savings,3,18,0,5850.0,1,Software transaction
+TXN-1448,ACC-031,2026-09-27,14:56,30818.98,Transfer,Payroll,Hyderabad,17.08982,76.54889,Current,3,14,0,40960.0,1,Payroll transaction
+TXN-1449,ACC-011,2026-09-18,09:33,17933.03,Debit,Rent,Pune,18.73607,77.00024,Current,5,9,0,16250.0,1,Rent transaction
+TXN-1450,ACC-022,2026-08-26,12:02,3732.31,Debit,Travel,Chennai,18.79812,76.89001,Savings,5,12,0,5525.0,0,Travel transaction
+TXN-1451,ACC-024,2026-10-04,08:16,27925.65,Credit,Rent,Mumbai,17.90964,76.70452,Business,3,8,0,19750.0,1,Rent transaction
+TXN-1452,ACC-004,2026-09-06,13:59,4408.08,Transfer,Maintenance,Chennai,18.27766,77.82951,Business,6,13,0,7068.0,0,Maintenance transaction
+TXN-1453,ACC-029,2026-10-01,16:02,9220.51,Debit,Maintenance,Pune,17.73211,78.04209,Current,2,16,0,8664.0,0,Maintenance transaction
+TXN-1454,ACC-023,2026-09-10,15:00,5099.04,Transfer,Marketing,Pune,18.79526,77.47843,Current,2,15,0,7920.0,0,Marketing transaction
+TXN-1455,ACC-030,2026-09-20,12:40,17168.41,Transfer,Travel,Mumbai,16.69367,76.73057,Business,7,12,0,10285.0,0,Travel transaction
+TXN-1456,ACC-015,2026-08-31,15:01,9323.9,Transfer,Marketing,Bengaluru,16.91079,80.05378,Current,2,15,0,10230.0,0,Marketing transaction
+TXN-1457,ACC-031,2026-10-04,13:24,4738.76,Debit,Utilities,Hyderabad,16.49687,77.40169,Business,1,13,0,8320.0,1,Utilities transaction
+TXN-1458,ACC-035,2026-08-28,16:06,43427.19,Credit,Equipment Purchase,Pune,16.88409,78.98164,Business,2,16,0,22120.0,0,Equipment Purchase transaction
+TXN-1459,ACC-001,2026-10-05,12:24,5655.36,Transfer,Travel,Hyderabad,17.838,74.61547,Current,3,12,0,6120.0,0,Travel transaction
+TXN-1460,ACC-039,2026-09-06,09:18,20696.23,Transfer,Inventory,Bengaluru,17.58998,74.11012,Savings,4,9,0,19260.0,0,Inventory transaction
+TXN-1461,ACC-016,2026-09-04,13:48,4522.6,Transfer,Office Supplies,Chennai,17.8967,74.72211,Current,4,13,0,4500.0,0,Office Supplies transaction
+TXN-1462,ACC-035,2026-10-03,16:22,2706.85,Transfer,Fuel,Pune,16.71558,78.5272,Savings,10,16,0,3318.0,0,Fuel transaction
+TXN-1463,ACC-031,2026-10-07,13:18,3419.25,Credit,Utilities,Hyderabad,17.09068,77.71577,Current,2,13,0,8320.0,0,Utilities transaction
+TXN-1464,ACC-030,2026-09-08,15:26,33983.18,Transfer,Marketing,Mumbai,17.80666,77.74817,Business,5,15,0,13310.0,0,Marketing transaction
+TXN-1465,ACC-031,2026-09-26,13:20,17947.9,Credit,Professional Services,Hyderabad,16.92765,75.98994,Current,4,13,0,18560.0,0,Professional Services transaction
+TXN-1466,ACC-012,2026-09-22,14:20,6776.39,Transfer,Software,Mumbai,16.31934,74.6588,Savings,4,14,0,6480.0,1,Software transaction
+TXN-1467,ACC-022,2026-08-30,10:36,3334.62,Credit,Maintenance,Chennai,17.23765,78.81898,Business,4,10,0,4940.0,0,Maintenance transaction
+TXN-1468,ACC-014,2026-09-24,14:39,6442.07,Transfer,Software,Secunderabad,17.06455,74.15815,Current,2,14,0,7740.0,0,Software transaction
+TXN-1469,ACC-028,2026-09-26,16:44,31538.23,Credit,Rent,Chennai,16.42407,74.63843,Current,9,16,0,26750.0,0,Rent transaction
+TXN-1470,ACC-032,2026-10-04,11:53,53991.85,Credit,Equipment Purchase,Secunderabad,16.28764,77.64242,Savings,4,11,0,37800.0,0,Equipment Purchase transaction
+TXN-1471,ACC-003,2026-09-22,17:40,11971.88,Transfer,Professional Services,Bengaluru,18.4719,74.94704,Savings,3,17,0,12470.0,0,Professional Services transaction
+TXN-1472,ACC-011,2026-09-03,15:46,3643.84,Debit,Office Supplies,Pune,17.39377,75.76039,Current,6,15,0,2925.0,0,Office Supplies transaction
+TXN-1473,ACC-012,2026-09-07,11:41,29522.79,Credit,Payroll,Mumbai,17.2285,74.77855,Savings,3,11,0,23040.0,1,Payroll transaction
+TXN-1474,ACC-031,2026-09-03,14:49,21038.41,Debit,Professional Services,Hyderabad,16.2907,80.03562,Current,3,14,0,18560.0,0,Professional Services transaction
+TXN-1475,ACC-019,2026-08-30,17:21,5684.34,Transfer,Office Supplies,Hyderabad,18.07337,79.97428,Savings,2,17,0,5445.0,0,Office Supplies transaction
+TXN-1476,ACC-012,2026-09-30,17:55,13063.77,Credit,Marketing,Mumbai,16.79215,79.93005,Savings,5,17,0,7920.0,0,Marketing transaction
+TXN-1477,ACC-031,2026-08-31,15:07,9037.67,Credit,Office Supplies,Hyderabad,16.21697,77.49145,Current,6,15,0,5760.0,0,Office Supplies transaction
+TXN-1478,ACC-021,2026-09-27,15:10,7073.41,Debit,Fuel,Bengaluru,18.18741,74.43059,Business,3,15,0,5670.0,0,Fuel transaction
+TXN-1479,ACC-002,2026-08-28,16:44,22543.34,Credit,Rent,Secunderabad,18.93899,75.07102,Business,4,16,0,19750.0,1,Rent transaction
+TXN-1480,ACC-037,2026-09-24,14:07,3301.21,Debit,Office Supplies,Hyderabad,17.21606,76.11663,Business,3,14,0,4185.0,0,Office Supplies transaction
+TXN-1481,ACC-002,2026-10-03,12:54,4854.33,Credit,Utilities,Secunderabad,16.92648,80.06454,Savings,5,12,0,5135.0,1,Utilities transaction
+TXN-1482,ACC-013,2026-09-07,11:01,6532.43,Credit,Travel,Hyderabad,17.2513,74.81205,Savings,3,11,0,6715.0,0,Travel transaction
+TXN-1483,ACC-020,2026-09-11,11:47,8993.59,Debit,Fuel,Secunderabad,16.71053,74.9721,Savings,4,11,0,5376.0,0,Fuel transaction
+TXN-1484,ACC-018,2026-08-30,09:34,6899.38,Debit,Marketing,Mumbai,18.55063,75.96471,Savings,5,9,0,12540.0,0,Marketing transaction
+TXN-1485,ACC-020,2026-10-01,09:31,43508.81,Credit,Rent,Secunderabad,17.93545,77.65928,Current,5,9,0,32000.0,0,Rent transaction
+TXN-1486,ACC-002,2026-09-18,09:17,20287.5,Debit,Professional Services,Secunderabad,16.71068,78.06978,Current,4,9,0,11455.0,0,Professional Services transaction
+TXN-1487,ACC-012,2026-10-03,11:18,2324.24,Debit,Fuel,Mumbai,18.90496,75.33099,Business,4,11,0,3024.0,0,Fuel transaction
+TXN-1488,ACC-025,2026-09-23,13:09,2820.09,Transfer,Fuel,Hyderabad,18.70191,75.85154,Current,2,13,0,3612.0,0,Fuel transaction
+TXN-1489,ACC-001,2026-08-29,09:58,9627.44,Transfer,Inventory,Hyderabad,18.95671,77.45315,Savings,5,9,0,12960.0,0,Inventory transaction
+TXN-1490,ACC-003,2026-09-06,15:29,21298.87,Transfer,Professional Services,Bengaluru,18.03745,79.74072,Current,3,15,0,12470.0,0,Professional Services transaction
+TXN-1491,ACC-002,2026-09-12,14:34,12485.94,Credit,Travel,Secunderabad,16.36691,77.64647,Current,4,14,0,6715.0,0,Travel transaction
+TXN-1492,ACC-023,2026-09-12,10:42,6791.75,Debit,Utilities,Pune,17.95622,74.15367,Savings,4,10,0,4680.0,1,Utilities transaction
+TXN-1493,ACC-026,2026-09-13,07:18,5432.18,Credit,Utilities,Secunderabad,18.42932,74.08924,Savings,1,7,0,6045.0,1,Utilities transaction
+TXN-1494,ACC-026,2026-09-06,12:25,5724.22,Credit,Travel,Secunderabad,16.96146,78.39528,Savings,2,12,0,7905.0,0,Travel transaction
+TXN-1495,ACC-020,2026-08-26,14:33,11690.7,Transfer,Travel,Secunderabad,16.43567,76.56839,Current,4,14,0,10880.0,0,Travel transaction
+TXN-1496,ACC-012,2026-09-01,15:53,9957.95,Transfer,Maintenance,Mumbai,18.51845,74.57952,Savings,3,15,0,5472.0,0,Maintenance transaction
+TXN-1497,ACC-032,2026-09-27,12:25,13309.17,Transfer,Software,Secunderabad,18.78648,78.03732,Business,2,12,0,12150.0,0,Software transaction
+TXN-1498,ACC-028,2026-10-01,15:36,3214.37,Transfer,Maintenance,Chennai,18.38785,76.14233,Current,4,15,0,8132.0,0,Maintenance transaction
+TXN-1499,ACC-034,2026-10-02,10:22,12029.86,Transfer,Professional Services,Chennai,16.7663,78.77758,Business,2,10,0,10440.0,0,Professional Services transaction
+TXN-1500,ACC-005,2026-10-04,11:32,7997.79,Transfer,Utilities,Pune,16.35577,79.13625,Savings,4,11,0,6500.0,0,Utilities transaction
+TXN-1501,ACC-002,2026-08-28,14:03,3149.18,Credit,Fuel,Secunderabad,18.43958,77.33324,Current,4,14,0,3318.0,0,Fuel transaction
+TXN-1502,ACC-013,2026-10-08,14:41,9239.84,Transfer,Maintenance,Hyderabad,16.38663,74.1525,Savings,4,14,0,6004.0,0,Maintenance transaction
+TXN-1503,ACC-027,2026-10-03,13:48,7812.87,Credit,Maintenance,Bengaluru,18.17439,79.61144,Savings,4,13,0,7600.0,0,Maintenance transaction
+TXN-1504,ACC-031,2026-08-31,15:57,62977.73,Debit,Equipment Purchase,Hyderabad,18.96654,80.09309,Business,8,15,0,35840.0,0,Equipment Purchase transaction
+TXN-1505,ACC-002,2026-10-07,13:02,6419.34,Debit,Travel,Secunderabad,17.63031,75.28193,Business,3,13,0,6715.0,0,Travel transaction
+TXN-1506,ACC-001,2026-08-26,07:04,7672.89,Transfer,Software,Hyderabad,18.73995,75.30249,Savings,4,7,0,6480.0,0,Software transaction
+TXN-1507,ACC-040,2026-09-17,15:13,8633.61,Transfer,Utilities,Chennai,17.5485,79.41599,Savings,3,15,0,7410.0,0,Utilities transaction
+TXN-1508,ACC-021,2026-09-04,14:44,24755.21,Debit,Inventory,Bengaluru,18.43857,77.82806,Business,5,14,0,24300.0,0,Inventory transaction
+TXN-1509,ACC-027,2026-09-16,12:54,12188.3,Transfer,Marketing,Bengaluru,18.60801,74.11284,Savings,6,12,0,11000.0,0,Marketing transaction
+TXN-1510,ACC-014,2026-09-27,12:30,18731.99,Debit,Rent,Secunderabad,18.21821,79.28043,Current,5,12,0,21500.0,1,Rent transaction
+TXN-1511,ACC-020,2026-09-26,15:10,40979.84,Transfer,Inventory,Secunderabad,17.16531,78.0122,Business,5,15,0,23040.0,0,Inventory transaction
+TXN-1512,ACC-025,2026-09-18,12:05,3365.26,Transfer,Travel,Hyderabad,16.98513,77.44488,Business,3,12,0,7310.0,0,Travel transaction
+TXN-1513,ACC-007,2026-09-14,15:53,14682.82,Transfer,Inventory,Hyderabad,16.32569,79.11714,Business,5,15,0,20520.0,0,Inventory transaction
+TXN-1514,ACC-034,2026-09-19,13:30,11070.08,Debit,Marketing,Chennai,18.32986,78.14197,Current,2,13,0,7920.0,0,Marketing transaction
+TXN-1515,ACC-024,2026-09-08,13:49,10214.82,Credit,Payroll,Mumbai,16.68029,76.85342,Business,3,13,0,25280.0,1,Payroll transaction
+TXN-1516,ACC-022,2026-09-20,15:10,29282.62,Credit,Equipment Purchase,Chennai,16.95565,74.74313,Business,5,15,0,18200.0,0,Equipment Purchase transaction
+TXN-1517,ACC-030,2026-10-01,11:05,14896.65,Transfer,Maintenance,Mumbai,16.53815,79.24914,Savings,3,11,0,9196.0,0,Maintenance transaction
+TXN-1518,ACC-018,2026-09-17,12:03,19466.05,Credit,Maintenance,Mumbai,18.00823,75.62875,Current,4,12,0,8664.0,0,Maintenance transaction
+TXN-1519,ACC-031,2026-08-30,14:57,33456.55,Transfer,Software,Hyderabad,18.71952,75.63316,Savings,3,14,0,11520.0,0,Software transaction
+TXN-1520,ACC-022,2026-09-14,14:00,12298.25,Credit,Software,Chennai,17.09736,75.34562,Business,6,14,0,5850.0,0,Software transaction
+TXN-1521,ACC-004,2026-09-05,14:33,5707.26,Credit,Travel,Chennai,16.3081,75.44366,Savings,5,14,0,7905.0,0,Travel transaction
+TXN-1522,ACC-007,2026-08-26,14:40,36594.13,Credit,Professional Services,Hyderabad,18.05909,77.30394,Current,4,14,0,16530.0,0,Professional Services transaction
+TXN-1523,ACC-004,2026-08-27,13:40,14899.51,Transfer,Equipment Purchase,Chennai,16.8979,78.80045,Savings,3,13,0,26040.0,0,Equipment Purchase transaction
+TXN-1524,ACC-006,2026-09-06,14:37,37375.83,Credit,Payroll,Mumbai,19.01008,75.15875,Savings,1,14,0,34240.0,1,Payroll transaction
+TXN-1525,ACC-028,2026-09-27,12:20,26810.83,Credit,Payroll,Chennai,18.9551,76.88953,Current,6,12,0,34240.0,1,Payroll transaction
+TXN-1526,ACC-026,2026-08-28,12:41,18287.55,Debit,Equipment Purchase,Secunderabad,17.8506,74.73243,Business,7,12,0,26040.0,0,Equipment Purchase transaction
+TXN-1527,ACC-021,2026-08-26,17:29,21536.27,Debit,Inventory,Bengaluru,16.5494,74.0872,Current,5,17,0,24300.0,0,Inventory transaction
+TXN-1528,ACC-040,2026-08-31,16:49,54671.89,Transfer,Equipment Purchase,Chennai,18.87905,74.84726,Business,7,16,0,31920.0,0,Equipment Purchase transaction
+TXN-1529,ACC-017,2026-09-09,16:27,11145.29,Credit,Office Supplies,Pune,16.21624,78.84307,Current,5,16,0,4815.0,0,Office Supplies transaction
+TXN-1530,ACC-033,2026-10-08,13:31,15180.27,Transfer,Rent,Bengaluru,17.7806,79.30383,Current,2,13,0,16250.0,1,Rent transaction
+TXN-1531,ACC-031,2026-09-03,13:01,10589.8,Transfer,Utilities,Hyderabad,18.72308,76.91235,Business,6,13,0,8320.0,1,Utilities transaction
+TXN-1532,ACC-032,2026-09-03,15:17,5817.09,Debit,Office Supplies,Secunderabad,18.55153,77.15488,Business,2,15,0,6075.0,0,Office Supplies transaction
+TXN-1533,ACC-029,2026-09-21,10:21,7699.64,Debit,Marketing,Pune,16.44154,74.33203,Current,2,10,0,12540.0,0,Marketing transaction
+TXN-1534,ACC-028,2026-09-29,08:29,25949.48,Debit,Professional Services,Chennai,17.98716,77.70601,Business,2,8,0,15515.0,0,Professional Services transaction
+TXN-1535,ACC-008,2026-10-07,14:22,8407.75,Credit,Software,Secunderabad,18.62197,76.53555,Savings,3,14,0,10890.0,1,Software transaction
+TXN-1536,ACC-036,2026-10-07,18:58,7106.14,Credit,Travel,Mumbai,18.96095,76.41647,Business,3,18,0,7310.0,0,Travel transaction
+TXN-1537,ACC-003,2026-09-28,17:23,23574.08,Debit,Equipment Purchase,Bengaluru,17.25671,78.23353,Business,1,17,0,24080.0,0,Equipment Purchase transaction
+TXN-1538,ACC-008,2026-09-08,12:03,17255.05,Debit,Maintenance,Secunderabad,18.30284,75.43881,Current,3,12,0,9196.0,0,Maintenance transaction
+TXN-1539,ACC-012,2026-09-08,14:14,4454.54,Transfer,Fuel,Mumbai,16.47805,77.92513,Business,3,14,0,3024.0,0,Fuel transaction
+TXN-1540,ACC-011,2026-09-21,15:39,5720.39,Debit,Software,Pune,17.50871,73.98473,Business,6,15,0,5850.0,1,Software transaction
+TXN-1541,ACC-011,2026-08-24,16:55,2800.17,Debit,Utilities,Pune,19.04484,76.5034,Savings,6,16,0,4225.0,1,Utilities transaction
+TXN-1542,ACC-023,2026-09-11,07:25,25773.18,Transfer,Rent,Pune,18.553,78.05975,Current,4,7,0,18000.0,1,Rent transaction
+TXN-1543,ACC-028,2026-09-02,13:43,47179.42,Transfer,Inventory,Chennai,17.60931,73.99136,Business,4,13,0,19260.0,0,Inventory transaction
+TXN-1544,ACC-005,2026-09-12,10:47,23659.98,Debit,Equipment Purchase,Pune,18.16433,76.31206,Business,5,10,0,28000.0,0,Equipment Purchase transaction
+TXN-1545,ACC-004,2026-09-06,13:01,4903.52,Debit,Maintenance,Chennai,17.74683,78.29108,Business,4,13,0,7068.0,0,Maintenance transaction
+TXN-1546,ACC-016,2026-09-01,09:26,9197.32,Credit,Professional Services,Chennai,17.60807,75.75655,Business,3,9,0,14500.0,0,Professional Services transaction
+TXN-1547,ACC-010,2026-09-13,07:26,26872.42,Credit,Equipment Purchase,Chennai,18.13923,79.2319,Current,4,7,0,37800.0,0,Equipment Purchase transaction
+TXN-1548,ACC-020,2026-09-19,12:38,5660.36,Debit,Maintenance,Secunderabad,18.99421,77.7673,Savings,3,12,0,9728.0,0,Maintenance transaction
+TXN-1549,ACC-010,2026-09-10,11:49,8521.53,Transfer,Travel,Chennai,16.91145,79.54044,Current,5,11,0,11475.0,0,Travel transaction
+TXN-1550,ACC-018,2026-08-30,14:03,9340.96,Debit,Marketing,Mumbai,17.53782,75.16052,Business,4,14,0,12540.0,0,Marketing transaction
+TXN-1551,ACC-025,2026-09-20,09:01,19063.99,Transfer,Rent,Hyderabad,17.32968,74.27182,Business,4,9,0,21500.0,0,Rent transaction
+TXN-1552,ACC-040,2026-10-01,10:33,9606.95,Debit,Travel,Chennai,18.53303,77.95287,Savings,7,10,0,9690.0,0,Travel transaction
+TXN-1553,ACC-031,2026-09-05,11:57,61537.29,Credit,Equipment Purchase,Hyderabad,17.21325,78.38218,Savings,3,11,0,35840.0,0,Equipment Purchase transaction
+TXN-1554,ACC-035,2026-08-31,14:50,7777.09,Debit,Utilities,Pune,18.7092,74.42536,Current,6,14,0,5135.0,1,Utilities transaction
+TXN-1555,ACC-025,2026-09-20,18:11,16614.48,Debit,Payroll,Hyderabad,17.56152,78.62541,Current,3,18,0,27520.0,0,Payroll transaction
+TXN-1556,ACC-035,2026-09-10,12:25,2272.15,Credit,Utilities,Pune,17.63506,78.24614,Savings,7,12,0,5135.0,0,Utilities transaction
+TXN-1557,ACC-037,2026-09-28,15:55,9650.23,Credit,Marketing,Hyderabad,17.6731,76.81557,Savings,3,15,0,10230.0,0,Marketing transaction
+TXN-1558,ACC-023,2026-09-09,13:38,11950.11,Credit,Inventory,Pune,18.23596,79.51569,Current,4,13,0,12960.0,0,Inventory transaction
+TXN-1559,ACC-012,2026-08-26,14:58,7104.51,Credit,Utilities,Mumbai,18.72877,78.04657,Savings,4,14,0,4680.0,1,Utilities transaction
+TXN-1560,ACC-018,2026-09-27,12:10,12666.32,Credit,Marketing,Mumbai,18.01546,75.8045,Business,3,12,0,12540.0,0,Marketing transaction
+TXN-1561,ACC-008,2026-08-30,12:36,36256.19,Debit,Payroll,Secunderabad,17.72144,74.9849,Business,4,12,0,38720.0,1,Payroll transaction
+TXN-1562,ACC-005,2026-09-26,12:57,7687.51,Credit,Marketing,Pune,17.45861,79.94879,Savings,2,12,0,11000.0,0,Marketing transaction
+TXN-1563,ACC-021,2026-09-17,10:09,15141.03,Transfer,Maintenance,Bengaluru,16.53191,76.30698,Business,7,10,0,10260.0,0,Maintenance transaction
+TXN-1564,ACC-006,2026-09-14,14:08,7468.5,Debit,Maintenance,Mumbai,17.11117,79.33858,Current,4,14,0,8132.0,0,Maintenance transaction
+TXN-1565,ACC-010,2026-09-19,20:29,15393.67,Credit,Software,Chennai,18.18277,78.72014,Current,3,20,0,12150.0,0,Software transaction
+TXN-1566,ACC-005,2026-09-06,13:17,8400.24,Debit,Office Supplies,Pune,18.27386,75.4596,Savings,7,13,0,4500.0,0,Office Supplies transaction
+TXN-1567,ACC-002,2026-09-18,08:51,61005.74,Transfer,Payroll,Secunderabad,17.42852,75.32897,Savings,5,8,0,25280.0,1,Payroll transaction
+TXN-1568,ACC-017,2026-09-08,11:45,7700.49,Credit,Software,Pune,18.12791,79.30441,Business,6,11,0,9630.0,0,Software transaction
+TXN-1569,ACC-024,2026-08-31,12:50,5502.75,Credit,Utilities,Mumbai,18.44169,73.96884,Savings,5,12,0,5135.0,1,Utilities transaction
+TXN-1570,ACC-036,2026-10-06,16:02,3695.52,Debit,Utilities,Mumbai,17.56139,78.52888,Business,3,16,0,5590.0,0,Utilities transaction
+TXN-1571,ACC-037,2026-09-22,15:12,21476.95,Debit,Rent,Hyderabad,19.09852,75.69776,Current,2,15,0,23250.0,1,Rent transaction
+TXN-1572,ACC-011,2026-08-25,12:30,2347.73,Credit,Office Supplies,Pune,16.69775,74.51143,Current,3,12,0,2925.0,0,Office Supplies transaction
+TXN-1573,ACC-038,2026-09-20,13:30,3409.59,Debit,Office Supplies,Secunderabad,16.30304,77.39276,Savings,4,13,0,4500.0,0,Office Supplies transaction
+TXN-1574,ACC-002,2026-09-26,17:16,14349.22,Debit,Maintenance,Secunderabad,18.67676,74.65426,Current,3,17,0,6004.0,0,Maintenance transaction
+TXN-1575,ACC-024,2026-10-03,16:13,7813.22,Transfer,Marketing,Mumbai,17.86828,77.01133,Savings,3,16,0,8690.0,0,Marketing transaction
+TXN-1576,ACC-025,2026-09-21,12:53,30555.98,Credit,Rent,Hyderabad,18.98361,79.11686,Savings,5,12,0,21500.0,0,Rent transaction
+TXN-1577,ACC-038,2026-09-20,18:44,10361.04,Debit,Marketing,Secunderabad,18.70516,77.09041,Savings,2,18,0,11000.0,0,Marketing transaction
+TXN-1578,ACC-027,2026-09-04,10:41,13495.95,Debit,Software,Bengaluru,16.25053,74.45501,Current,4,10,0,9000.0,1,Software transaction
+TXN-1579,ACC-040,2026-09-05,16:09,53252.03,Credit,Payroll,Chennai,16.94419,77.06269,Savings,3,16,0,36480.0,1,Payroll transaction
+TXN-1580,ACC-007,2026-08-29,12:59,9656.78,Credit,Travel,Hyderabad,16.20833,76.52423,Business,4,12,0,9690.0,0,Travel transaction
+TXN-1581,ACC-025,2026-08-24,15:54,6243.73,Credit,Travel,Hyderabad,17.8803,78.93028,Savings,4,15,0,7310.0,0,Travel transaction
+TXN-1582,ACC-019,2026-09-05,15:07,62482.01,Transfer,Equipment Purchase,Hyderabad,16.79767,75.93761,Savings,2,15,0,33880.0,0,Equipment Purchase transaction
+TXN-1583,ACC-030,2026-09-21,12:05,17328.92,Transfer,Inventory,Mumbai,17.93936,80.02802,Current,7,12,0,21780.0,0,Inventory transaction
+TXN-1584,ACC-022,2026-09-29,13:25,2667.78,Transfer,Utilities,Chennai,17.58329,74.96907,Savings,3,13,0,4225.0,0,Utilities transaction
+TXN-1585,ACC-036,2026-10-01,13:22,5321.1,Credit,Office Supplies,Mumbai,18.78594,73.93801,Current,3,13,0,3870.0,0,Office Supplies transaction
+TXN-1586,ACC-005,2026-09-14,08:39,10381.82,Credit,Marketing,Pune,17.5081,74.08801,Current,6,8,0,11000.0,0,Marketing transaction
+TXN-1587,ACC-008,2026-10-04,14:49,7477.2,Credit,Fuel,Secunderabad,17.81434,75.24508,Savings,2,14,0,5082.0,0,Fuel transaction
+TXN-1588,ACC-012,2026-09-21,10:58,36466.38,Credit,Equipment Purchase,Mumbai,16.6563,74.72118,Current,3,10,0,20160.0,0,Equipment Purchase transaction
+TXN-1589,ACC-025,2026-10-02,13:18,3552.45,Credit,Fuel,Hyderabad,16.575,76.49813,Current,7,13,0,3612.0,0,Fuel transaction
+TXN-1590,ACC-002,2026-09-10,13:02,4789.66,Debit,Utilities,Secunderabad,17.93083,78.93058,Business,6,13,0,5135.0,0,Utilities transaction
+TXN-1591,ACC-016,2026-09-08,12:35,4013.19,Credit,Utilities,Chennai,17.97158,77.17071,Business,1,12,0,6500.0,1,Utilities transaction
+TXN-1592,ACC-031,2026-09-13,14:41,24663.15,Credit,Inventory,Hyderabad,18.76699,76.43016,Savings,4,14,0,23040.0,0,Inventory transaction
+TXN-1593,ACC-036,2026-09-04,11:02,10885.58,Debit,Maintenance,Mumbai,17.21067,77.54772,Current,6,11,0,6536.0,0,Maintenance transaction
+TXN-1594,ACC-036,2026-09-14,13:58,3397.65,Debit,Fuel,Mumbai,17.98922,74.10159,Current,5,13,0,3612.0,0,Fuel transaction
+TXN-1595,ACC-024,2026-09-23,11:30,22610.32,Debit,Inventory,Mumbai,17.81102,78.79977,Current,6,11,0,14220.0,0,Inventory transaction
+TXN-1596,ACC-040,2026-09-01,12:33,23659.48,Debit,Inventory,Chennai,17.43066,78.90128,Savings,6,12,0,20520.0,0,Inventory transaction
+TXN-1597,ACC-031,2026-08-31,11:17,9082.15,Debit,Marketing,Hyderabad,19.01035,78.04439,Business,4,11,0,14080.0,0,Marketing transaction
+TXN-1598,ACC-040,2026-10-06,17:29,8850.78,Transfer,Utilities,Chennai,18.3596,76.95988,Current,2,17,0,7410.0,0,Utilities transaction
+TXN-1599,ACC-024,2026-09-21,12:15,10513.83,Debit,Inventory,Mumbai,19.0518,79.61224,Current,2,12,0,14220.0,0,Inventory transaction
+TXN-1600,ACC-030,2026-09-25,18:59,8787.68,Credit,Professional Services,Mumbai,17.41087,75.032,Business,2,18,0,17545.0,0,Professional Services transaction
+TXN-1601,ACC-016,2026-10-06,09:59,16911.98,Debit,Payroll,Chennai,16.82356,74.44148,Business,3,9,0,32000.0,1,Payroll transaction
+TXN-1602,ACC-014,2026-09-03,15:54,12815.24,Transfer,Rent,Secunderabad,18.1748,77.4439,Current,4,15,0,21500.0,1,Rent transaction
+TXN-1603,ACC-013,2026-09-13,13:21,9278.64,Transfer,Inventory,Hyderabad,18.16583,74.41753,Business,1,13,0,14220.0,0,Inventory transaction
+TXN-1604,ACC-039,2026-08-26,11:39,4855.59,Debit,Fuel,Bengaluru,17.13316,74.12076,Current,6,11,0,4494.0,0,Fuel transaction
+TXN-1605,ACC-031,2026-09-02,16:09,4110.75,Transfer,Travel,Hyderabad,18.94767,76.07635,Current,1,16,0,10880.0,0,Travel transaction
+TXN-1606,ACC-032,2026-09-17,15:41,6834.58,Transfer,Software,Secunderabad,17.21303,78.01298,Savings,9,15,0,12150.0,0,Software transaction
+TXN-1607,ACC-004,2026-09-05,12:35,8315.79,Credit,Software,Chennai,17.09601,80.13341,Savings,4,12,0,8370.0,1,Software transaction
+TXN-1608,ACC-029,2026-09-04,12:43,52876.23,Debit,Payroll,Pune,17.63282,77.32044,Savings,5,12,0,36480.0,1,Payroll transaction
+TXN-1609,ACC-012,2026-09-20,10:22,4897.68,Transfer,Maintenance,Mumbai,18.27909,76.84965,Current,6,10,0,5472.0,0,Maintenance transaction
+TXN-1610,ACC-011,2026-09-06,11:33,2356.73,Credit,Maintenance,Pune,16.4781,77.42796,Current,3,11,0,4940.0,0,Maintenance transaction
+TXN-1611,ACC-010,2026-09-17,12:10,12704.64,Transfer,Fuel,Chennai,18.58006,74.9986,Business,5,12,0,5670.0,0,Fuel transaction
+TXN-1612,ACC-031,2026-09-29,15:42,4187.75,Debit,Office Supplies,Hyderabad,16.35818,73.7342,Current,4,15,0,5760.0,0,Office Supplies transaction
+TXN-1613,ACC-023,2026-08-26,11:07,5788.81,Debit,Maintenance,Pune,17.93612,77.18859,Savings,8,11,0,5472.0,0,Maintenance transaction
+TXN-1614,ACC-001,2026-10-03,14:27,4017.46,Credit,Software,Hyderabad,19.03197,73.73631,Business,1,14,0,6480.0,1,Software transaction
+TXN-1615,ACC-016,2026-09-26,13:14,12295.24,Debit,Software,Chennai,19.06146,80.16651,Current,1,13,0,9000.0,1,Software transaction
+TXN-1616,ACC-033,2026-09-08,13:28,10914.02,Credit,Maintenance,Bengaluru,16.80877,74.51765,Business,3,13,0,4940.0,0,Maintenance transaction
+TXN-1617,ACC-022,2026-08-31,17:37,5471.1,Credit,Professional Services,Chennai,18.98968,80.05148,Business,5,17,0,9425.0,0,Professional Services transaction
+TXN-1618,ACC-007,2026-09-10,13:19,6809.74,Debit,Utilities,Hyderabad,18.68452,74.62638,Current,4,13,0,7410.0,1,Utilities transaction
+TXN-1619,ACC-038,2026-09-19,13:24,5914.55,Debit,Utilities,Secunderabad,18.28709,79.95273,Savings,2,13,0,6500.0,1,Utilities transaction
+TXN-1620,ACC-015,2026-09-12,11:42,4025.77,Credit,Office Supplies,Bengaluru,16.53518,80.00887,Savings,5,11,0,4185.0,0,Office Supplies transaction
+TXN-1621,ACC-031,2026-09-30,10:50,11446.3,Credit,Utilities,Hyderabad,17.86396,79.22387,Current,5,10,0,8320.0,1,Utilities transaction
+TXN-1622,ACC-020,2026-09-28,09:40,4674.8,Transfer,Fuel,Secunderabad,16.94274,77.47456,Current,3,9,0,5376.0,0,Fuel transaction
+TXN-1623,ACC-035,2026-08-26,14:16,14370.84,Credit,Rent,Pune,18.16943,77.2069,Current,3,14,0,19750.0,0,Rent transaction
+TXN-1624,ACC-032,2026-09-30,11:53,14293.35,Debit,Marketing,Secunderabad,18.71848,75.61952,Savings,4,11,0,14850.0,0,Marketing transaction
+TXN-1625,ACC-039,2026-10-08,18:19,9215.63,Transfer,Fuel,Bengaluru,17.09729,78.16671,Current,4,18,0,4494.0,0,Fuel transaction
+TXN-1626,ACC-023,2026-08-30,12:13,41570.81,Transfer,Equipment Purchase,Pune,18.29952,75.93934,Savings,4,12,0,20160.0,0,Equipment Purchase transaction
+TXN-1627,ACC-014,2026-09-28,12:43,16845.55,Transfer,Payroll,Secunderabad,17.50296,77.46677,Current,8,12,0,27520.0,1,Payroll transaction
+TXN-1628,ACC-018,2026-09-29,10:55,3883.2,Debit,Office Supplies,Mumbai,17.78148,78.55394,Current,3,10,0,5130.0,0,Office Supplies transaction
+TXN-1629,ACC-008,2026-09-22,14:21,5247.04,Credit,Fuel,Secunderabad,17.2348,74.14414,Savings,5,14,0,5082.0,0,Fuel transaction
+TXN-1630,ACC-002,2026-09-11,11:15,3259.18,Credit,Maintenance,Secunderabad,18.97235,74.56243,Savings,5,11,0,6004.0,0,Maintenance transaction
+TXN-1631,ACC-017,2026-10-03,15:42,5404.87,Transfer,Utilities,Pune,17.36675,77.28887,Current,1,15,0,6955.0,0,Utilities transaction
+TXN-1632,ACC-002,2026-08-25,13:10,6720.02,Transfer,Fuel,Secunderabad,18.27521,75.51608,Savings,5,13,0,3318.0,0,Fuel transaction
+TXN-1633,ACC-008,2026-09-01,12:12,18358.53,Debit,Utilities,Secunderabad,16.75639,80.22517,Business,3,12,0,7865.0,1,Utilities transaction
+TXN-1634,ACC-039,2026-09-06,08:13,28120.07,Transfer,Inventory,Bengaluru,17.04069,78.34368,Current,6,8,0,19260.0,0,Inventory transaction
+TXN-1635,ACC-027,2026-09-30,13:27,1813.33,Debit,Office Supplies,Bengaluru,17.97153,77.24886,Savings,5,13,0,4500.0,0,Office Supplies transaction
+TXN-1636,ACC-025,2026-08-26,16:26,6438.71,Transfer,Utilities,Hyderabad,16.26498,77.41204,Current,2,16,0,5590.0,0,Utilities transaction
+TXN-1637,ACC-007,2026-08-26,10:19,8511.98,Transfer,Maintenance,Hyderabad,18.2586,78.69516,Business,4,10,0,8664.0,0,Maintenance transaction
+TXN-1638,ACC-004,2026-09-11,09:39,50079.53,Debit,Payroll,Chennai,18.84927,78.96292,Savings,3,9,0,29760.0,1,Payroll transaction
+TXN-1639,ACC-038,2026-08-29,16:34,9852.39,Credit,Utilities,Secunderabad,18.19246,74.22294,Savings,3,16,0,6500.0,1,Utilities transaction
+TXN-1640,ACC-025,2026-10-04,14:38,13786.42,Transfer,Payroll,Hyderabad,17.34425,76.25303,Business,5,14,0,27520.0,0,Payroll transaction
+TXN-1641,ACC-023,2026-09-05,11:24,37155.51,Debit,Inventory,Pune,16.30687,76.29302,Business,5,11,0,12960.0,0,Inventory transaction
+TXN-1642,ACC-039,2026-10-05,16:43,33934.19,Credit,Rent,Bengaluru,18.10811,76.26771,Current,4,16,0,26750.0,0,Rent transaction
+TXN-1643,ACC-038,2026-10-04,13:38,5025.61,Credit,Travel,Secunderabad,17.7568,75.94277,Business,5,13,0,8500.0,0,Travel transaction
+TXN-1644,ACC-030,2026-09-14,12:15,16958.97,Transfer,Professional Services,Mumbai,18.25442,74.63231,Current,4,12,0,17545.0,0,Professional Services transaction
+TXN-1645,ACC-001,2026-09-05,14:39,3888.45,Transfer,Utilities,Hyderabad,18.85011,79.80796,Savings,4,14,0,4680.0,1,Utilities transaction
+TXN-1646,ACC-020,2026-09-06,16:50,4294.75,Transfer,Office Supplies,Secunderabad,17.43483,76.01344,Savings,3,16,0,5760.0,0,Office Supplies transaction
+TXN-1647,ACC-022,2026-09-09,11:22,5736.64,Credit,Marketing,Chennai,16.85028,75.42135,Business,4,11,0,7150.0,0,Marketing transaction
+TXN-1648,ACC-009,2026-08-24,09:12,12378.93,Credit,Inventory,Bengaluru,17.13179,77.1014,Business,6,9,0,23040.0,0,Inventory transaction
+TXN-1649,ACC-009,2026-09-17,14:00,18829.27,Credit,Rent,Bengaluru,18.62315,75.0602,Current,5,14,0,32000.0,1,Rent transaction
+TXN-1650,ACC-005,2026-10-03,16:27,7969.05,Credit,Software,Pune,19.07869,74.76604,Business,3,16,0,9000.0,0,Software transaction
+TXN-1651,ACC-013,2026-09-20,12:55,3996.69,Credit,Maintenance,Hyderabad,16.4596,76.06117,Current,3,12,0,6004.0,0,Maintenance transaction
+TXN-1652,ACC-004,2026-09-03,16:54,26848.24,Transfer,Equipment Purchase,Chennai,18.06255,76.1382,Current,3,16,0,26040.0,0,Equipment Purchase transaction
+TXN-1653,ACC-024,2026-09-14,14:29,55271.66,Credit,Payroll,Mumbai,17.86005,73.95355,Current,7,14,0,25280.0,0,Payroll transaction
+TXN-1654,ACC-024,2026-10-04,09:57,11662.62,Transfer,Professional Services,Mumbai,17.22508,76.74166,Savings,4,9,0,11455.0,0,Professional Services transaction
+TXN-1655,ACC-016,2026-09-10,14:31,19533.27,Debit,Equipment Purchase,Chennai,16.96653,73.82903,Savings,7,14,0,28000.0,0,Equipment Purchase transaction
+TXN-1656,ACC-019,2026-08-31,11:01,10163.39,Debit,Inventory,Hyderabad,18.32395,74.94229,Current,6,11,0,21780.0,0,Inventory transaction
+TXN-1657,ACC-015,2026-09-13,10:31,2411.89,Transfer,Maintenance,Bengaluru,18.27738,77.08237,Savings,6,10,0,7068.0,0,Maintenance transaction
+TXN-1658,ACC-002,2026-10-03,13:40,50658.06,Debit,Equipment Purchase,Secunderabad,16.68393,74.94957,Current,2,13,0,22120.0,0,Equipment Purchase transaction
+TXN-1659,ACC-005,2026-09-03,13:46,13350.65,Transfer,Professional Services,Pune,17.33471,74.00058,Business,2,13,0,14500.0,0,Professional Services transaction
+TXN-1660,ACC-011,2026-09-08,07:57,5597.96,Credit,Software,Pune,18.08038,80.14244,Current,2,7,0,5850.0,0,Software transaction
+TXN-1661,ACC-020,2026-09-18,12:18,4532.46,Debit,Fuel,Secunderabad,18.14671,75.66898,Savings,2,12,0,5376.0,0,Fuel transaction
+TXN-1662,ACC-026,2026-09-03,15:40,13650.94,Debit,Marketing,Secunderabad,17.05772,79.53352,Current,6,15,0,10230.0,0,Marketing transaction
+TXN-1663,ACC-038,2026-08-25,16:38,9167.69,Debit,Marketing,Secunderabad,16.22527,80.17581,Current,3,16,0,11000.0,0,Marketing transaction
+TXN-1664,ACC-022,2026-10-04,09:01,8394.17,Transfer,Marketing,Chennai,17.80793,76.19079,Savings,3,9,0,7150.0,0,Marketing transaction
+TXN-1665,ACC-002,2026-08-30,11:59,4664.66,Credit,Marketing,Secunderabad,17.3729,77.65999,Savings,7,11,0,8690.0,0,Marketing transaction
+TXN-1666,ACC-002,2026-10-08,11:59,12920.83,Credit,Inventory,Secunderabad,18.80003,78.77113,Business,4,11,0,14220.0,0,Inventory transaction
+TXN-1667,ACC-003,2026-09-27,13:40,13471.62,Debit,Inventory,Bengaluru,16.50882,74.61121,Savings,6,13,0,15480.0,0,Inventory transaction
+TXN-1668,ACC-040,2026-09-12,12:03,25404.07,Credit,Payroll,Chennai,18.23569,79.55375,Current,1,12,0,36480.0,0,Payroll transaction
+TXN-1669,ACC-026,2026-09-19,07:06,29856.88,Debit,Payroll,Secunderabad,18.24385,78.28197,Business,4,7,0,29760.0,0,Payroll transaction
+TXN-1670,ACC-004,2026-09-04,16:03,24406.52,Credit,Equipment Purchase,Chennai,18.40911,78.93643,Business,5,16,0,26040.0,0,Equipment Purchase transaction
+TXN-1671,ACC-040,2026-09-28,11:08,7429.73,Transfer,Travel,Chennai,17.26679,77.87456,Savings,5,11,0,9690.0,0,Travel transaction
+TXN-1672,ACC-026,2026-09-16,14:59,11436.75,Credit,Professional Services,Secunderabad,18.84331,80.12117,Savings,4,14,0,13485.0,0,Professional Services transaction
+TXN-1673,ACC-016,2026-10-08,12:40,20729.19,Transfer,Marketing,Chennai,17.64213,78.14325,Savings,1,12,0,11000.0,0,Marketing transaction
+TXN-1674,ACC-027,2026-09-10,14:22,31274.33,Transfer,Payroll,Bengaluru,16.52302,77.51246,Savings,3,14,0,32000.0,1,Payroll transaction
+TXN-1675,ACC-039,2026-08-31,13:31,7207.54,Credit,Office Supplies,Bengaluru,17.28179,78.09647,Current,3,13,0,4815.0,0,Office Supplies transaction
+TXN-1676,ACC-001,2026-09-13,17:46,18481.31,Debit,Payroll,Hyderabad,18.43042,76.58941,Savings,2,17,0,23040.0,1,Payroll transaction
+TXN-1677,ACC-018,2026-09-02,14:51,19730.58,Credit,Professional Services,Mumbai,17.94009,74.70344,Business,3,14,0,16530.0,0,Professional Services transaction
+TXN-1678,ACC-032,2026-09-23,17:26,3158.23,Debit,Fuel,Secunderabad,17.67229,76.72176,Current,5,17,0,5670.0,0,Fuel transaction
+TXN-1679,ACC-024,2026-09-30,17:54,7921.71,Debit,Marketing,Mumbai,18.66132,76.50161,Savings,6,17,0,8690.0,0,Marketing transaction
+TXN-1680,ACC-002,2026-10-04,07:07,10968.39,Transfer,Marketing,Secunderabad,18.041,73.7255,Business,4,7,0,8690.0,0,Marketing transaction
+TXN-1681,ACC-034,2026-09-26,16:22,20446.11,Transfer,Inventory,Chennai,18.9626,78.21474,Business,2,16,0,12960.0,0,Inventory transaction
+TXN-1682,ACC-036,2026-09-12,10:12,55227.71,Debit,Equipment Purchase,Mumbai,18.99889,78.27471,Current,5,10,0,24080.0,0,Equipment Purchase transaction
+TXN-1683,ACC-037,2026-10-01,15:32,4491.3,Debit,Software,Hyderabad,16.90534,79.48158,Savings,3,15,0,8370.0,1,Software transaction
+TXN-1684,ACC-002,2026-09-10,12:16,23341.55,Transfer,Inventory,Secunderabad,18.465,75.94021,Savings,3,12,0,14220.0,0,Inventory transaction
+TXN-1685,ACC-012,2026-10-06,14:01,5103.68,Debit,Maintenance,Mumbai,18.11205,80.12053,Current,4,14,0,5472.0,0,Maintenance transaction
+TXN-1686,ACC-028,2026-09-13,16:38,7865.97,Credit,Software,Chennai,16.73861,80.08323,Savings,4,16,0,9630.0,1,Software transaction
+TXN-1687,ACC-018,2026-09-24,07:05,61043.2,Transfer,Payroll,Mumbai,16.9796,74.16111,Savings,4,7,0,36480.0,1,Payroll transaction
+TXN-1688,ACC-019,2026-09-20,13:06,9155.44,Transfer,Software,Hyderabad,17.88559,76.89075,Savings,3,13,0,10890.0,1,Software transaction
+TXN-1689,ACC-002,2026-09-05,19:47,29140.2,Transfer,Rent,Secunderabad,18.36438,76.76307,Current,4,19,0,19750.0,1,Rent transaction
+TXN-1690,ACC-013,2026-08-24,11:11,2801.49,Transfer,Fuel,Hyderabad,16.9578,74.25111,Business,1,11,0,3318.0,0,Fuel transaction
+TXN-1691,ACC-019,2026-09-17,14:07,10188.65,Debit,Maintenance,Hyderabad,18.25459,74.09469,Business,4,14,0,9196.0,0,Maintenance transaction
+TXN-1692,ACC-027,2026-09-09,12:17,41026.08,Transfer,Rent,Bengaluru,18.10206,77.55492,Current,4,12,0,25000.0,1,Rent transaction
+TXN-1693,ACC-008,2026-08-27,11:57,20685.85,Debit,Rent,Secunderabad,17.2503,80.19941,Current,6,11,0,30250.0,0,Rent transaction
+TXN-1694,ACC-007,2026-08-30,12:24,4307.99,Debit,Software,Hyderabad,18.0897,76.30222,Current,3,12,0,10260.0,0,Software transaction
+TXN-1695,ACC-035,2026-09-30,10:34,11305.27,Debit,Maintenance,Pune,17.05856,77.37818,Savings,3,10,0,6004.0,0,Maintenance transaction
+TXN-1696,ACC-032,2026-08-27,12:10,11967.54,Debit,Rent,Secunderabad,16.6863,76.09386,Current,2,12,0,33750.0,1,Rent transaction
+TXN-1697,ACC-003,2026-09-24,13:30,3113.76,Debit,Travel,Bengaluru,16.36977,79.22868,Savings,6,13,0,7310.0,0,Travel transaction
+TXN-1698,ACC-033,2026-09-24,14:21,20470.15,Transfer,Payroll,Bengaluru,16.66623,79.07327,Savings,3,14,0,20800.0,0,Payroll transaction
+TXN-1699,ACC-028,2026-09-16,10:50,45308.44,Debit,Professional Services,Chennai,18.80864,79.23663,Savings,4,10,0,15515.0,0,Professional Services transaction
+TXN-1700,ACC-021,2026-10-07,12:54,55509.35,Debit,Payroll,Bengaluru,18.70549,74.06632,Business,10,12,0,43200.0,0,Payroll transaction
+TXN-1701,ACC-005,2026-09-08,09:08,17947.94,Debit,Payroll,Pune,17.78193,79.08126,Savings,5,9,0,32000.0,0,Payroll transaction
+TXN-1702,ACC-017,2026-10-01,10:35,25292.49,Credit,Inventory,Pune,18.41537,78.38515,Business,3,10,0,19260.0,0,Inventory transaction
+TXN-1703,ACC-012,2026-09-08,12:37,13851.21,Transfer,Professional Services,Mumbai,18.31563,80.04997,Current,4,12,0,10440.0,0,Professional Services transaction
+TXN-1704,ACC-035,2026-09-20,14:35,6025.8,Transfer,Office Supplies,Pune,17.44539,76.94778,Savings,2,14,0,3555.0,0,Office Supplies transaction
+TXN-1705,ACC-038,2026-08-27,14:50,10829.48,Credit,Travel,Secunderabad,17.34036,78.65883,Savings,7,14,0,8500.0,0,Travel transaction
+TXN-1706,ACC-039,2026-10-04,10:42,16843.09,Credit,Rent,Bengaluru,18.92415,74.73353,Savings,6,10,0,26750.0,1,Rent transaction
+TXN-1707,ACC-002,2026-08-29,15:24,22054.63,Transfer,Equipment Purchase,Secunderabad,17.61719,73.75824,Savings,4,15,0,22120.0,0,Equipment Purchase transaction
+TXN-1708,ACC-033,2026-09-04,11:58,5070.16,Credit,Professional Services,Bengaluru,16.56517,79.10317,Current,2,11,0,9425.0,0,Professional Services transaction
+TXN-1709,ACC-036,2026-10-06,11:10,14620.12,Debit,Travel,Mumbai,19.07165,73.99438,Business,2,11,0,7310.0,0,Travel transaction
+TXN-1710,ACC-001,2026-10-02,11:04,16195.6,Credit,Equipment Purchase,Hyderabad,18.30459,78.3146,Savings,3,11,0,20160.0,0,Equipment Purchase transaction
+TXN-1711,ACC-020,2026-08-25,10:15,15726.22,Debit,Rent,Secunderabad,16.56791,79.88887,Savings,3,10,0,32000.0,0,Rent transaction
+TXN-1712,ACC-010,2026-09-19,09:20,29108.02,Debit,Rent,Chennai,17.41619,78.31019,Current,4,9,0,33750.0,0,Rent transaction
+TXN-1713,ACC-009,2026-09-21,14:26,7751.07,Debit,Maintenance,Bengaluru,18.4324,75.83486,Business,5,14,0,9728.0,0,Maintenance transaction
+TXN-1714,ACC-007,2026-09-05,16:15,6228.35,Transfer,Utilities,Hyderabad,17.68719,77.1357,Business,4,16,0,7410.0,0,Utilities transaction
+TXN-1715,ACC-028,2026-09-19,09:53,6177.67,Debit,Professional Services,Chennai,17.33539,77.34977,Current,3,9,0,15515.0,0,Professional Services transaction
+TXN-1716,ACC-008,2026-09-03,14:13,8119.17,Debit,Utilities,Secunderabad,16.41898,79.59627,Current,6,14,0,7865.0,1,Utilities transaction
+TXN-1717,ACC-028,2026-09-21,13:34,10570.7,Credit,Travel,Chennai,18.89295,76.1677,Current,4,13,0,9095.0,0,Travel transaction
+TXN-1718,ACC-027,2026-09-12,12:37,21902.82,Transfer,Equipment Purchase,Bengaluru,16.81716,76.65645,Current,5,12,0,28000.0,0,Equipment Purchase transaction
+TXN-1719,ACC-038,2026-09-02,13:01,2970.94,Transfer,Utilities,Secunderabad,18.98672,76.52899,Current,4,13,0,6500.0,1,Utilities transaction
+TXN-1720,ACC-006,2026-10-07,17:40,43345.37,Transfer,Rent,Mumbai,17.10068,78.87187,Savings,3,17,0,26750.0,1,Rent transaction
+TXN-1721,ACC-014,2026-09-08,13:55,16941.9,Credit,Inventory,Secunderabad,18.87924,77.71186,Business,5,13,0,15480.0,0,Inventory transaction
+TXN-1722,ACC-037,2026-10-04,13:06,3429.42,Debit,Office Supplies,Hyderabad,19.08434,76.10601,Savings,3,13,0,4185.0,0,Office Supplies transaction
+TXN-1723,ACC-002,2026-10-06,15:10,29583.81,Debit,Payroll,Secunderabad,18.31853,79.20019,Business,2,15,0,25280.0,1,Payroll transaction
+TXN-1724,ACC-003,2026-09-24,10:12,18113.31,Credit,Rent,Bengaluru,18.13116,80.06597,Savings,2,10,0,21500.0,0,Rent transaction
+TXN-1725,ACC-025,2026-10-05,15:11,12966.44,Credit,Maintenance,Hyderabad,17.4252,78.63372,Current,5,15,0,6536.0,0,Maintenance transaction
+TXN-1726,ACC-031,2026-10-05,10:19,53510.0,Debit,Rent,Hyderabad,18.85332,76.00576,Current,3,10,0,32000.0,1,Rent transaction
+TXN-1727,ACC-030,2026-09-04,15:44,12238.14,Credit,Maintenance,Mumbai,17.40368,78.14606,Savings,1,15,0,9196.0,0,Maintenance transaction
+TXN-1728,ACC-002,2026-09-05,16:00,12669.44,Transfer,Maintenance,Secunderabad,16.54636,78.26556,Savings,3,16,0,6004.0,0,Maintenance transaction
+TXN-1729,ACC-017,2026-09-23,13:22,8324.82,Debit,Marketing,Pune,16.79369,77.31186,Business,2,13,0,11770.0,0,Marketing transaction
+TXN-1730,ACC-015,2026-10-05,15:52,9486.04,Debit,Inventory,Bengaluru,16.38377,79.8948,Current,1,15,0,16740.0,0,Inventory transaction
+TXN-1731,ACC-020,2026-10-02,17:12,54127.88,Transfer,Rent,Secunderabad,16.81684,78.22058,Current,4,17,0,32000.0,1,Rent transaction
+TXN-1732,ACC-012,2026-10-01,17:06,27883.61,Debit,Payroll,Mumbai,18.01829,74.62976,Current,4,17,0,23040.0,0,Payroll transaction
+TXN-1733,ACC-008,2026-08-25,13:03,6420.18,Transfer,Office Supplies,Secunderabad,18.79707,74.7605,Business,5,13,0,5445.0,0,Office Supplies transaction
+TXN-1734,ACC-033,2026-08-31,10:54,11381.32,Debit,Software,Bengaluru,17.42361,77.32177,Business,4,10,0,5850.0,1,Software transaction
+TXN-1735,ACC-011,2026-09-02,14:24,2615.25,Debit,Fuel,Pune,17.10664,74.83449,Business,6,14,0,2730.0,0,Fuel transaction
+TXN-1736,ACC-014,2026-09-10,10:58,32392.66,Debit,Inventory,Secunderabad,17.78725,78.69456,Current,6,10,0,15480.0,0,Inventory transaction
+TXN-1737,ACC-035,2026-10-08,14:47,3390.39,Transfer,Fuel,Pune,18.18868,77.00107,Savings,7,14,0,3318.0,0,Fuel transaction
+TXN-1738,ACC-015,2026-09-22,10:17,6707.64,Debit,Marketing,Bengaluru,18.64422,78.02838,Business,4,10,0,10230.0,0,Marketing transaction
+TXN-1739,ACC-027,2026-10-07,12:20,26334.93,Debit,Inventory,Bengaluru,18.75843,77.95886,Business,4,12,0,18000.0,0,Inventory transaction
+TXN-1740,ACC-035,2026-09-28,12:47,7673.65,Debit,Marketing,Pune,17.39699,79.40055,Business,4,12,0,8690.0,0,Marketing transaction
+TXN-1741,ACC-032,2026-08-25,10:26,26700.96,Debit,Inventory,Secunderabad,16.77378,74.221,Savings,2,10,0,24300.0,0,Inventory transaction
+TXN-1742,ACC-013,2026-10-06,15:53,5481.25,Transfer,Utilities,Hyderabad,17.24641,76.65758,Current,7,15,0,5135.0,1,Utilities transaction
+TXN-1743,ACC-010,2026-09-29,14:24,41304.41,Debit,Rent,Chennai,16.70533,79.1579,Business,4,14,0,33750.0,0,Rent transaction
+TXN-1744,ACC-032,2026-09-18,13:46,36923.32,Credit,Payroll,Secunderabad,17.37219,79.55823,Savings,3,13,0,43200.0,1,Payroll transaction
+TXN-1745,ACC-036,2026-09-20,15:31,10196.96,Transfer,Marketing,Mumbai,18.45513,74.76878,Business,2,15,0,9460.0,0,Marketing transaction
+TXN-1746,ACC-036,2026-09-20,14:40,34911.08,Debit,Payroll,Mumbai,17.34268,77.4107,Savings,5,14,0,27520.0,1,Payroll transaction
+TXN-1747,ACC-025,2026-10-05,14:09,8847.94,Debit,Travel,Hyderabad,18.58051,78.28607,Savings,5,14,0,7310.0,0,Travel transaction
+TXN-1748,ACC-039,2026-09-27,14:15,8784.48,Debit,Software,Bengaluru,16.52534,75.39666,Savings,4,14,0,9630.0,1,Software transaction
+TXN-1749,ACC-003,2026-09-01,17:00,6493.8,Credit,Professional Services,Bengaluru,18.08398,78.97448,Current,6,17,0,12470.0,0,Professional Services transaction
+TXN-1750,ACC-023,2026-09-25,15:47,5319.43,Transfer,Travel,Pune,16.91636,76.44232,Savings,5,15,0,6120.0,0,Travel transaction
+TXN-1751,ACC-019,2026-09-09,12:53,15717.05,Debit,Software,Hyderabad,16.65476,77.55485,Current,8,12,0,10890.0,1,Software transaction
+TXN-1752,ACC-005,2026-09-09,18:32,6576.03,Transfer,Utilities,Pune,17.72123,73.98726,Current,3,18,0,6500.0,1,Utilities transaction
+TXN-1753,ACC-016,2026-10-03,12:27,55890.84,Debit,Payroll,Chennai,19.06489,78.07047,Business,5,12,0,32000.0,1,Payroll transaction
+TXN-1754,ACC-026,2026-09-12,15:13,5993.21,Credit,Maintenance,Secunderabad,18.03816,77.46937,Business,4,15,0,7068.0,0,Maintenance transaction
+TXN-1755,ACC-016,2026-09-24,15:10,2860.14,Transfer,Fuel,Chennai,17.07678,79.67686,Business,4,15,0,4200.0,0,Fuel transaction
+TXN-1756,ACC-011,2026-09-11,14:51,15884.16,Credit,Rent,Pune,17.58837,75.41809,Business,1,14,0,16250.0,1,Rent transaction
+TXN-1757,ACC-030,2026-09-11,14:32,5063.46,Debit,Office Supplies,Mumbai,17.30022,78.21955,Business,3,14,0,5445.0,0,Office Supplies transaction
+TXN-1758,ACC-006,2026-09-04,15:27,38250.95,Debit,Payroll,Mumbai,17.62384,77.42126,Business,4,15,0,34240.0,1,Payroll transaction
+TXN-1759,ACC-034,2026-09-12,15:16,5375.74,Credit,Utilities,Chennai,17.93119,79.56907,Savings,3,15,0,4680.0,1,Utilities transaction
+TXN-1760,ACC-004,2026-08-27,10:20,3005.36,Transfer,Office Supplies,Chennai,18.21179,74.59609,Savings,4,10,0,4185.0,0,Office Supplies transaction
+TXN-1761,ACC-016,2026-09-20,10:46,25954.82,Debit,Marketing,Chennai,18.59312,77.03954,Business,3,10,0,11000.0,0,Marketing transaction
+TXN-1762,ACC-023,2026-09-08,11:00,5283.06,Credit,Travel,Pune,16.52736,75.52363,Business,3,11,0,6120.0,0,Travel transaction
+TXN-1763,ACC-009,2026-09-18,17:12,83322.27,Credit,Equipment Purchase,Bengaluru,17.21552,78.44409,Business,3,17,0,35840.0,0,Equipment Purchase transaction
+TXN-1764,ACC-019,2026-08-30,13:47,20888.33,Credit,Payroll,Hyderabad,17.7409,73.96154,Business,1,13,0,38720.0,1,Payroll transaction
+TXN-1765,ACC-019,2026-09-29,13:29,3415.72,Debit,Utilities,Hyderabad,17.73992,76.19736,Business,5,13,0,7865.0,1,Utilities transaction
+TXN-1766,ACC-030,2026-09-15,15:45,11615.66,Transfer,Maintenance,Mumbai,16.69347,78.48153,Current,4,15,0,9196.0,0,Maintenance transaction
+TXN-1767,ACC-035,2026-09-19,11:24,10185.35,Debit,Software,Pune,16.68164,76.29073,Business,7,11,0,7110.0,1,Software transaction
+TXN-1768,ACC-009,2026-09-01,12:35,3480.74,Credit,Fuel,Bengaluru,16.49842,80.0921,Business,6,12,0,5376.0,0,Fuel transaction
+TXN-1769,ACC-023,2026-09-24,11:45,13431.63,Credit,Equipment Purchase,Pune,18.979,75.36455,Business,5,11,0,20160.0,0,Equipment Purchase transaction
+TXN-1770,ACC-020,2026-09-26,14:13,10791.41,Credit,Inventory,Secunderabad,17.58453,77.66172,Current,7,14,0,23040.0,0,Inventory transaction
+TXN-1771,ACC-014,2026-08-30,13:24,5267.53,Debit,Utilities,Secunderabad,16.26857,78.90426,Current,2,13,0,5590.0,0,Utilities transaction
+TXN-1772,ACC-011,2026-10-04,10:52,8047.54,Debit,Maintenance,Pune,18.05615,78.56951,Current,9,10,0,4940.0,0,Maintenance transaction
+TXN-1773,ACC-040,2026-10-03,17:52,19397.08,Credit,Marketing,Chennai,16.46157,77.44881,Current,3,17,0,12540.0,0,Marketing transaction
+TXN-1774,ACC-034,2026-09-10,17:04,24859.85,Credit,Payroll,Chennai,17.93733,78.84002,Business,3,17,0,23040.0,1,Payroll transaction
+TXN-1775,ACC-001,2026-09-20,11:48,13410.21,Credit,Software,Hyderabad,16.73428,79.52189,Current,4,11,0,6480.0,1,Software transaction
+TXN-1776,ACC-001,2026-10-07,10:15,3256.53,Credit,Maintenance,Hyderabad,16.46196,76.38101,Current,4,10,0,5472.0,0,Maintenance transaction
+TXN-1777,ACC-019,2026-09-11,07:38,43676.92,Transfer,Equipment Purchase,Hyderabad,18.75102,78.25673,Business,2,7,0,33880.0,0,Equipment Purchase transaction
+TXN-1778,ACC-025,2026-08-31,16:29,51844.0,Transfer,Payroll,Hyderabad,16.33856,77.65017,Business,2,16,0,27520.0,1,Payroll transaction
+TXN-1779,ACC-034,2026-09-28,17:02,13983.86,Credit,Professional Services,Chennai,17.07809,75.80828,Business,4,17,0,10440.0,0,Professional Services transaction
+TXN-1780,ACC-035,2026-09-01,12:11,13290.01,Debit,Inventory,Pune,17.48437,75.24853,Savings,4,12,0,14220.0,0,Inventory transaction
+TXN-1781,ACC-035,2026-09-09,11:30,8508.61,Transfer,Utilities,Pune,17.38981,78.6317,Savings,4,11,0,5135.0,0,Utilities transaction
+TXN-1782,ACC-012,2026-08-24,11:20,5445.31,Debit,Office Supplies,Mumbai,18.98847,79.0429,Business,6,11,0,3240.0,0,Office Supplies transaction
+TXN-1783,ACC-019,2026-10-07,10:13,10512.1,Debit,Maintenance,Hyderabad,18.41855,78.88712,Business,3,10,0,9196.0,0,Maintenance transaction
+TXN-1784,ACC-020,2026-09-24,11:03,18186.58,Debit,Maintenance,Secunderabad,17.15599,80.10034,Current,2,11,0,9728.0,0,Maintenance transaction
+TXN-1785,ACC-028,2026-09-14,14:22,17396.28,Credit,Software,Chennai,17.28818,78.3619,Business,1,14,0,9630.0,1,Software transaction
+TXN-1786,ACC-020,2026-09-18,13:22,11509.77,Transfer,Marketing,Secunderabad,17.06455,74.21596,Business,6,13,0,14080.0,0,Marketing transaction
+TXN-1787,ACC-004,2026-08-25,13:55,6392.95,Transfer,Travel,Chennai,16.2925,76.25141,Savings,7,13,0,7905.0,0,Travel transaction
+TXN-1788,ACC-007,2026-10-03,07:10,5117.16,Debit,Fuel,Hyderabad,16.28618,73.75861,Current,8,7,0,4788.0,0,Fuel transaction
+TXN-1789,ACC-032,2026-09-25,14:07,54891.54,Transfer,Rent,Secunderabad,18.78022,75.67492,Savings,1,14,0,33750.0,1,Rent transaction
+TXN-1790,ACC-009,2026-10-07,12:50,16818.6,Debit,Inventory,Bengaluru,18.59825,73.85327,Savings,8,12,0,23040.0,0,Inventory transaction
+TXN-1791,ACC-026,2026-08-27,12:20,35501.11,Transfer,Payroll,Secunderabad,16.604,76.10792,Business,6,12,0,29760.0,1,Payroll transaction
+TXN-1792,ACC-029,2026-09-20,13:18,2565.17,Credit,Office Supplies,Pune,18.86696,78.89219,Current,4,13,0,5130.0,0,Office Supplies transaction
+TXN-1793,ACC-012,2026-10-01,07:55,21603.53,Transfer,Payroll,Mumbai,18.85843,76.85592,Savings,1,7,0,23040.0,0,Payroll transaction
+TXN-1794,ACC-008,2026-09-29,10:11,4337.93,Transfer,Utilities,Secunderabad,18.16294,78.59269,Current,4,10,0,7865.0,1,Utilities transaction
+TXN-1795,ACC-023,2026-08-29,12:49,33533.94,Transfer,Payroll,Pune,16.46992,75.45758,Business,4,12,0,23040.0,1,Payroll transaction
+TXN-1796,ACC-024,2026-09-30,12:31,2542.11,Debit,Office Supplies,Mumbai,17.93986,76.74672,Business,3,12,0,3555.0,0,Office Supplies transaction
+TXN-1797,ACC-005,2026-09-10,11:33,17789.36,Credit,Travel,Pune,18.55241,76.2181,Current,6,11,0,8500.0,0,Travel transaction
+TXN-1798,ACC-028,2026-10-08,09:21,2535.84,Transfer,Office Supplies,Chennai,18.66854,77.72072,Current,4,9,0,4815.0,0,Office Supplies transaction
+TXN-1799,ACC-010,2026-10-07,14:52,19733.08,Debit,Rent,Chennai,18.32915,76.47081,Business,4,14,0,33750.0,1,Rent transaction
+TXN-1800,ACC-005,2026-09-20,15:01,2754.7,Credit,Office Supplies,Pune,18.93754,75.20344,Current,3,15,0,4500.0,0,Office Supplies transaction
+TXN-1013,ACC-006,2026-09-06,12:13,43492.09,Debit,Professional Services,Pune,17.80907,76.14809,Business,5,12,1,15515.0,0,Professional Services transaction
+TXN-1032,ACC-016,2026-10-08,14:52,3691.13,Credit,Office Supplies,Chennai,18.8014,73.8914,Business,4,14,0,4500.0,0,Office Supplies transaction
